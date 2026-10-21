@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "metrics_checked": 24,
+  "foreign_keys_passed": true,
+  "market_aggregation_passed": true,
+  "powerbi_engine_checked": false,
+  "independent_raw_controls_passed": true,
+  "source_sha256": "fa6d022ed437155e1a2f0378710602848703c8a7f203f7ff5d77805bf8480aa6",
+  "sales_field": "Order Item Total"
+}

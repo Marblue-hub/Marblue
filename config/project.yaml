@@ -1,0 +1,15 @@
+rule_version: "1.1.0"
+source_version: "local files in 8gx2fvg2k6-5; source download lineage not independently verified"
+input: "data/raw/DataCoSupplyChainDataset.csv"
+dictionary: "data/raw/DescriptionDataCoSupplyChain.csv"
+encoding: "latin-1"
+sales_field: "Order Item Total"
+currency: "source units; currency unverified"
+cancel_status: "Shipping canceled"
+small_sample_threshold: 100
+excluded_comparison_months: ["2018-01"]
+comparison_review_from: "2017-10"
+comparison_policy_status: "confirmed_withheld"
+amount_tolerance: 0.01
+ratio_tolerance: 0.0001
+

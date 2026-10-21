@@ -1,0 +1,64 @@
+// Contract 1.1.0. Install in the dedicated KPI table.
+// DAX DIVIDE uses BLANK for a zero denominator. Amounts are source units.
+// Empty count selections return 0; empty sums and undefined ratios remain BLANK.
+Orders =
+VAR SelectedOrderIds = VALUES(fact_order_items[order_id])
+RETURN COALESCE(CALCULATE(COUNTROWS(fact_orders), TREATAS(SelectedOrderIds, fact_orders[order_id])), 0)
+
+Order Items = COALESCE(COUNTROWS(fact_order_items), 0)
+Recorded Discount = SUM(fact_order_items[discount])
+Conflict Orders = CALCULATE([Orders], KEEPFILTERS(fact_orders[is_order_conflict] == 1))
+Sales = SUM(fact_order_items[sales])
+Gross Sales = SUM(fact_order_items[gross_sales])
+Reported Profit = SUM(fact_order_items[reported_profit])
+Reported Profit Margin = DIVIDE([Reported Profit], [Sales])
+Average Order Value = DIVIDE([Sales], [Orders])
+
+Canceled Orders =
+CALCULATE([Orders], KEEPFILTERS(fact_orders[is_canceled] = 1))
+Canceled Order Rate = DIVIDE([Canceled Orders], [Orders])
+
+Eligible Orders =
+CALCULATE([Orders], KEEPFILTERS(FILTER(fact_orders, NOT ISBLANK(fact_orders[is_over_schedule]))))
+Over Schedule Orders =
+CALCULATE([Orders], KEEPFILTERS(fact_orders[is_over_schedule] == 1))
+Within Schedule Orders =
+CALCULATE([Orders], KEEPFILTERS(fact_orders[is_over_schedule] == 0))
+Unknown Timing Orders = [Orders] - [Canceled Orders] - [Eligible Orders]
+Over Schedule Order Rate = DIVIDE([Over Schedule Orders], [Eligible Orders])
+
+Average Positive Over Days =
+VAR SelectedOrderIds = VALUES(fact_order_items[order_id])
+RETURN CALCULATE(
+    AVERAGE(fact_orders[positive_over_days]),
+    TREATAS(SelectedOrderIds, fact_orders[order_id]),
+    KEEPFILTERS(fact_orders[is_over_schedule] == 1))
+
+// Whole order value for orders involving a selected product, including the basket.
+Over Schedule Order Sales Exposure =
+VAR SelectedOrderIds = VALUES(fact_order_items[order_id])
+RETURN CALCULATE(SUM(fact_orders[sales]),
+    TREATAS(SelectedOrderIds, fact_orders[order_id]),
+    KEEPFILTERS(fact_orders[is_over_schedule] == 1))
+
+Canceled Sales Exposure =
+CALCULATE([Sales], KEEPFILTERS(fact_orders[is_canceled] == 1))
+
+Eligible Items =
+CALCULATE([Order Items], KEEPFILTERS(FILTER(fact_orders, NOT ISBLANK(fact_orders[is_over_schedule]))))
+Over Schedule Items =
+CALCULATE([Order Items], KEEPFILTERS(fact_orders[is_over_schedule] == 1))
+Over Schedule Item Rate = DIVIDE([Over Schedule Items], [Eligible Items])
+Negative Profit Items = CALCULATE([Order Items], KEEPFILTERS(fact_order_items[reported_profit] < 0))
+Negative Profit Item Rate = DIVIDE([Negative Profit Items], [Order Items])
+
+Small Sample Note = IF([Eligible Orders] < 100, "小样本 <100", BLANK())
+First Class Audit Note = "First Class 结果需验证计划规则和源字段定义；不可据此推断服务质量根因。"
+Timing Definition = "未取消且时长有效的独立订单中，实际运输时长超过计划时长的比例。无最终签收时间。"
+Money Definition = "记录销售额采用 Order Item Total（折扣后）；币种待核验；记录利润不是财务净利润。"
+
+Comparable Sales =
+CALCULATE([Sales], KEEPFILTERS(dim_date[is_comparable] = 1))
+// Build manifest CSV is a one-row metadata query, unrelated to the fact tables.
+Data Refresh UTC = SELECTEDVALUE(build_metadata[loaded_at_utc])
+

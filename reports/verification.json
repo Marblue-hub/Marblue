@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "tests": 29,
+  "test_failures_or_errors": 0,
+  "repeat_run_performed": true,
+  "changed_analytical_artifacts": [],
+  "unexpected_analytical_artifacts": [],
+  "source_unchanged": true,
+  "forbidden_export_columns": {},
+  "html_structure_and_links_passed": true,
+  "restricted_comparisons_withheld": true,
+  "comparison_review_labels_passed": true,
+  "comparison_policy_status": "confirmed_withheld",
+  "comparison_policy_pending_user": false,
+  "powerbi_engine_checked": true,
+  "powerbi_actual_checks": 404,
+  "powerbi_reopened": true,
+  "powerbi_file": "powerbi\\DataCoSupplyChain_P0.pbix"
+}

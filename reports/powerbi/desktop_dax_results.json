@@ -1,0 +1,652 @@
+{
+    "catalog":  "8e0f3d20-4a68-4541-a7f0-6b0d0bda5fc4",
+    "port":  57246,
+    "queries":  [
+                    {
+                        "id":  "full",
+                        "rows":  [
+                                     {
+                                         "orders":  65752,
+                                         "canceled_orders":  2855,
+                                         "eligible_orders":  62897,
+                                         "over_schedule_orders":  36048,
+                                         "within_schedule_orders":  26849,
+                                         "conflict_orders":  0,
+                                         "avg_positive_over_days":  1.61812028406569,
+                                         "order_items":  180519,
+                                         "sales":  33054402.380216651,
+                                         "gross_sales":  36784735.013379849,
+                                         "reported_profit":  3966902.9740503547,
+                                         "recorded_discount":  3730378.4025925719,
+                                         "negative_profit_items":  33784,
+                                         "eligible_items":  172765,
+                                         "over_schedule_items":  98977,
+                                         "canceled_sales_exposure":  1409737.304272572,
+                                         "over_schedule_sales_exposure":  18082555.296255466,
+                                         "unknown_timing_orders":  0,
+                                         "reported_profit_margin":  0.12001133550744759,
+                                         "average_order_value":  502.7132616531307,
+                                         "canceled_order_rate":  0.043420732449203067,
+                                         "over_schedule_order_rate":  0.57312749415711406,
+                                         "over_schedule_item_rate":  0.5728996035076549,
+                                         "negative_profit_item_rate":  0.18714927514555255
+                                     }
+                                 ]
+                    },
+                    {
+                        "id":  "shipping_mode:First Class",
+                        "rows":  [
+                                     {
+                                         "orders":  10079,
+                                         "canceled_orders":  477,
+                                         "eligible_orders":  9602,
+                                         "over_schedule_orders":  9602,
+                                         "within_schedule_orders":  0,
+                                         "avg_positive_over_days":  1,
+                                         "order_items":  27814,
+                                         "sales":  5100451.0725431712,
+                                         "gross_sales":  5674369.7582025547,
+                                         "reported_profit":  643121.920739061,
+                                         "recorded_discount":  573925.21038866788,
+                                         "negative_profit_items":  5102,
+                                         "eligible_items":  26513,
+                                         "over_schedule_items":  26513,
+                                         "canceled_sales_exposure":  239501.32280701012,
+                                         "over_schedule_sales_exposure":  4860949.7497361517,
+                                         "unknown_timing_orders":  0,
+                                         "reported_profit_margin":  0.12609118518970314,
+                                         "average_order_value":  506.0473333210806,
+                                         "canceled_order_rate":  0.047326123623375335,
+                                         "over_schedule_order_rate":  1,
+                                         "over_schedule_item_rate":  1,
+                                         "negative_profit_item_rate":  0.18343280362407421
+                                     }
+                                 ]
+                    },
+                    {
+                        "id":  "shipping_mode:Same Day",
+                        "rows":  [
+                                     {
+                                         "orders":  3571,
+                                         "canceled_orders":  164,
+                                         "eligible_orders":  3407,
+                                         "over_schedule_orders":  1648,
+                                         "within_schedule_orders":  1759,
+                                         "avg_positive_over_days":  1,
+                                         "order_items":  9737,
+                                         "sales":  1745201.5278633388,
+                                         "gross_sales":  1942528.5570090872,
+                                         "reported_profit":  203018.43024189817,
+                                         "recorded_discount":  197329.59016186593,
+                                         "negative_profit_items":  1835,
+                                         "eligible_items":  9293,
+                                         "over_schedule_items":  4454,
+                                         "canceled_sales_exposure":  78490.760767260013,
+                                         "over_schedule_sales_exposure":  787236.72828835773,
+                                         "unknown_timing_orders":  0,
+                                         "reported_profit_margin":  0.11632950521791882,
+                                         "average_order_value":  488.71507361056814,
+                                         "canceled_order_rate":  0.045925511061327362,
+                                         "over_schedule_order_rate":  0.48371000880540066,
+                                         "over_schedule_item_rate":  0.47928548369740664,
+                                         "negative_profit_item_rate":  0.18845640340967443
+                                     }
+                                 ]
+                    },
+                    {
+                        "id":  "shipping_mode:Second Class",
+                        "rows":  [
+                                     {
+                                         "orders":  12778,
+                                         "canceled_orders":  522,
+                                         "eligible_orders":  12256,
+                                         "over_schedule_orders":  9803,
+                                         "within_schedule_orders":  2453,
+                                         "avg_positive_over_days":  2.5041313883505047,
+                                         "order_items":  35216,
+                                         "sales":  6416528.5358804381,
+                                         "gross_sales":  7145444.818358914,
+                                         "reported_profit":  750308.17026543315,
+                                         "recorded_discount":  728925.330432832,
+                                         "negative_profit_items":  6529,
+                                         "eligible_items":  33806,
+                                         "over_schedule_items":  26987,
+                                         "canceled_sales_exposure":  255897.61219281028,
+                                         "over_schedule_sales_exposure":  4918062.8008318786,
+                                         "unknown_timing_orders":  0,
+                                         "reported_profit_margin":  0.11693366063437607,
+                                         "average_order_value":  502.15436968856142,
+                                         "canceled_order_rate":  0.040851463452809517,
+                                         "over_schedule_order_rate":  0.799853133159269,
+                                         "over_schedule_item_rate":  0.79829024433532514,
+                                         "negative_profit_item_rate":  0.18539868241708315
+                                     }
+                                 ]
+                    },
+                    {
+                        "id":  "shipping_mode:Standard Class",
+                        "rows":  [
+                                     {
+                                         "orders":  39324,
+                                         "canceled_orders":  1692,
+                                         "eligible_orders":  37632,
+                                         "over_schedule_orders":  14995,
+                                         "within_schedule_orders":  22637,
+                                         "avg_positive_over_days":  1.5026342114038012,
+                                         "order_items":  107752,
+                                         "sales":  19792221.243929677,
+                                         "gross_sales":  22022391.87980929,
+                                         "reported_profit":  2370454.4528039708,
+                                         "recorded_discount":  2230198.2716092025,
+                                         "negative_profit_items":  20318,
+                                         "eligible_items":  103153,
+                                         "over_schedule_items":  41023,
+                                         "canceled_sales_exposure":  835847.60850549152,
+                                         "over_schedule_sales_exposure":  7516306.0173991108,
+                                         "unknown_timing_orders":  0,
+                                         "reported_profit_margin":  0.11976697428698131,
+                                         "average_order_value":  503.31149536999482,
+                                         "canceled_order_rate":  0.043027158986878242,
+                                         "over_schedule_order_rate":  0.39846407312925169,
+                                         "over_schedule_item_rate":  0.39769080879858076,
+                                         "negative_profit_item_rate":  0.18856262528769768
+                                     }
+                                 ]
+                    },
+                    {
+                        "id":  "product_id:19",
+                        "rows":  [
+                                     {
+                                         "orders":  63,
+                                         "canceled_orders":  1,
+                                         "eligible_orders":  62,
+                                         "over_schedule_orders":  37,
+                                         "within_schedule_orders":  25,
+                                         "avg_positive_over_days":  1.8378378378378379,
+                                         "order_items":  64,
+                                         "sales":  7256.879884560004,
+                                         "gross_sales":  7999.3598656000058,
+                                         "reported_profit":  602.37997346200007,
+                                         "recorded_discount":  742.47999954400007,
+                                         "negative_profit_items":  11,
+                                         "eligible_items":  63,
+                                         "over_schedule_items":  38,
+                                         "canceled_sales_exposure":  108.7399979,
+                                         "over_schedule_sales_exposure":  23433.450078349997,
+                                         "unknown_timing_orders":  0,
+                                         "reported_profit_margin":  0.083008122367251136,
+                                         "average_order_value":  115.18856959619055,
+                                         "canceled_order_rate":  0.015873015873015872,
+                                         "over_schedule_order_rate":  0.59677419354838712,
+                                         "over_schedule_item_rate":  0.60317460317460314,
+                                         "negative_profit_item_rate":  0.171875
+                                     }
+                                 ]
+                    },
+                    {
+                        "id":  "product_id:24",
+                        "rows":  [
+                                     {
+                                         "orders":  74,
+                                         "canceled_orders":  1,
+                                         "eligible_orders":  73,
+                                         "over_schedule_orders":  37,
+                                         "within_schedule_orders":  36,
+                                         "avg_positive_over_days":  1.8378378378378379,
+                                         "order_items":  74,
+                                         "sales":  16653.06985199,
+                                         "gross_sales":  18477.689971699998,
+                                         "reported_profit":  3299.569979985,
+                                         "recorded_discount":  1824.640006638,
+                                         "negative_profit_items":  13,
+                                         "eligible_items":  73,
+                                         "over_schedule_items":  37,
+                                         "canceled_sales_exposure":  79.19000244,
+                                         "over_schedule_sales_exposure":  27595.540051000004,
+                                         "unknown_timing_orders":  0,
+                                         "reported_profit_margin":  0.198135839776755,
+                                         "average_order_value":  225.04148448635135,
+                                         "canceled_order_rate":  0.013513513513513514,
+                                         "over_schedule_order_rate":  0.50684931506849318,
+                                         "over_schedule_item_rate":  0.50684931506849318,
+                                         "negative_profit_item_rate":  0.17567567567567569
+                                     }
+                                 ]
+                    },
+                    {
+                        "id":  "product_id:35",
+                        "rows":  [
+                                     {
+                                         "orders":  65,
+                                         "canceled_orders":  3,
+                                         "eligible_orders":  62,
+                                         "over_schedule_orders":  36,
+                                         "within_schedule_orders":  26,
+                                         "avg_positive_over_days":  1.5833333333333333,
+                                         "order_items":  65,
+                                         "sales":  9386.5499721999986,
+                                         "gross_sales":  10399.350357499992,
+                                         "reported_profit":  1642.7299991240004,
+                                         "recorded_discount":  1012.800001032,
+                                         "negative_profit_items":  10,
+                                         "eligible_items":  62,
+                                         "over_schedule_items":  36,
+                                         "canceled_sales_exposure":  452.769989,
+                                         "over_schedule_sales_exposure":  22321.200114959996,
+                                         "unknown_timing_orders":  0,
+                                         "reported_profit_margin":  0.17500892276600546,
+                                         "average_order_value":  144.4084611107692,
+                                         "canceled_order_rate":  0.046153846153846156,
+                                         "over_schedule_order_rate":  0.58064516129032262,
+                                         "over_schedule_item_rate":  0.58064516129032262,
+                                         "negative_profit_item_rate":  0.15384615384615385
+                                     }
+                                 ]
+                    },
+                    {
+                        "id":  "product_id:37",
+                        "rows":  [
+                                     {
+                                         "orders":  262,
+                                         "canceled_orders":  11,
+                                         "eligible_orders":  251,
+                                         "over_schedule_orders":  155,
+                                         "within_schedule_orders":  96,
+                                         "avg_positive_over_days":  1.5935483870967742,
+                                         "order_items":  262,
+                                         "sales":  24626.510212520006,
+                                         "gross_sales":  27327.19054016,
+                                         "reported_profit":  2906.330036917,
+                                         "recorded_discount":  2700.7200050550009,
+                                         "negative_profit_items":  42,
+                                         "eligible_items":  251,
+                                         "over_schedule_items":  155,
+                                         "canceled_sales_exposure":  1290.26000582,
+                                         "over_schedule_sales_exposure":  83876.770752940021,
+                                         "unknown_timing_orders":  0,
+                                         "reported_profit_margin":  0.1180163170435507,
+                                         "average_order_value":  93.9943137882443,
+                                         "canceled_order_rate":  0.041984732824427481,
+                                         "over_schedule_order_rate":  0.61752988047808766,
+                                         "over_schedule_item_rate":  0.61752988047808766,
+                                         "negative_profit_item_rate":  0.16030534351145037
+                                     }
+                                 ]
+                    },
+                    {
+                        "id":  "product_id:44",
+                        "rows":  [
+                                     {
+                                         "orders":  303,
+                                         "canceled_orders":  11,
+                                         "eligible_orders":  292,
+                                         "over_schedule_orders":  157,
+                                         "within_schedule_orders":  135,
+                                         "avg_positive_over_days":  1.7707006369426752,
+                                         "order_items":  305,
+                                         "sales":  50354.210667770007,
+                                         "gross_sales":  56330.611644879944,
+                                         "reported_profit":  8213.070031392,
+                                         "recorded_discount":  5976.4700638990007,
+                                         "negative_profit_items":  54,
+                                         "eligible_items":  294,
+                                         "over_schedule_items":  158,
+                                         "canceled_sales_exposure":  1455.95000855,
+                                         "over_schedule_sales_exposure":  102793.671154392,
+                                         "unknown_timing_orders":  0,
+                                         "reported_profit_margin":  0.16310592346647396,
+                                         "average_order_value":  166.18551375501653,
+                                         "canceled_order_rate":  0.036303630363036306,
+                                         "over_schedule_order_rate":  0.53767123287671237,
+                                         "over_schedule_item_rate":  0.5374149659863946,
+                                         "negative_profit_item_rate":  0.17704918032786884
+                                     }
+                                 ]
+                    },
+                    {
+                        "id":  "canceled_only",
+                        "rows":  [
+                                     {
+                                         "orders":  2855,
+                                         "eligible_orders":  0,
+                                         "over_schedule_orders":  0,
+                                         "within_schedule_orders":  0,
+                                         "over_schedule_order_rate":  null,
+                                         "order_items":  7754,
+                                         "negative_profit_item_rate":  0.192029920041269
+                                     }
+                                 ]
+                    },
+                    {
+                        "id":  "empty_selection",
+                        "rows":  [
+                                     {
+                                         "orders":  0,
+                                         "eligible_orders":  0,
+                                         "over_schedule_orders":  0,
+                                         "within_schedule_orders":  0,
+                                         "over_schedule_order_rate":  null,
+                                         "order_items":  0,
+                                         "negative_profit_item_rate":  null
+                                     }
+                                 ]
+                    },
+                    {
+                        "id":  "months",
+                        "rows":  [
+                                     {
+                                         "dim_date[order_month]":  "2015-01",
+                                         "sales":  945382.16053442552,
+                                         "profit":  111660.74013174517,
+                                         "mom":  null,
+                                         "yoy":  null,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2015-02",
+                                         "sales":  833012.42925312591,
+                                         "profit":  99140.660195881268,
+                                         "mom":  -0.1188617005611539,
+                                         "yoy":  null,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2015-03",
+                                         "sales":  944050.110472353,
+                                         "profit":  113778.21019112713,
+                                         "mom":  0.13329654795041013,
+                                         "yoy":  null,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2015-04",
+                                         "sales":  912004.40026130783,
+                                         "profit":  108083.6799566296,
+                                         "mom":  -0.033944925015697534,
+                                         "yoy":  null,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2015-05",
+                                         "sales":  943939.7699561303,
+                                         "profit":  112147.90014327725,
+                                         "mom":  0.03501668378537684,
+                                         "yoy":  null,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2015-06",
+                                         "sales":  920242.06027558388,
+                                         "profit":  110147.16031314242,
+                                         "mom":  -0.025105107799036561,
+                                         "yoy":  null,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2015-07",
+                                         "sales":  932936.79022665485,
+                                         "profit":  115624.05987866835,
+                                         "mom":  0.013794989926095543,
+                                         "yoy":  null,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2015-08",
+                                         "sales":  925192.87053576566,
+                                         "profit":  117979.77030153145,
+                                         "mom":  -0.00830058346075937,
+                                         "yoy":  null,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2015-09",
+                                         "sales":  914522.37014340691,
+                                         "profit":  113467.9401181424,
+                                         "mom":  -0.011533271312585471,
+                                         "yoy":  null,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2015-10",
+                                         "sales":  943131.1002130307,
+                                         "profit":  101757.87003983963,
+                                         "mom":  0.031282701225928064,
+                                         "yoy":  null,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2015-11",
+                                         "sales":  924602.5705466104,
+                                         "profit":  104427.36011952961,
+                                         "mom":  -0.019645762569207137,
+                                         "yoy":  null,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2015-12",
+                                         "sales":  950526.92055230425,
+                                         "profit":  110641.54988098967,
+                                         "mom":  0.028038371113729206,
+                                         "yoy":  null,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2016-01",
+                                         "sales":  940283.63037541287,
+                                         "profit":  106780.95022869715,
+                                         "mom":  -0.010776433529036192,
+                                         "yoy":  -0.0053930890298696165,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2016-02",
+                                         "sales":  870116.74978672538,
+                                         "profit":  86809.49064166288,
+                                         "mom":  -0.074623101287717847,
+                                         "yoy":  0.044542337221627037,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2016-03",
+                                         "sales":  921487.73055993556,
+                                         "profit":  101259.99024981036,
+                                         "mom":  0.059039181564774765,
+                                         "yoy":  -0.023899557515149532,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2016-04",
+                                         "sales":  900492.91990929842,
+                                         "profit":  114976.61990693808,
+                                         "mom":  -0.022783603030590443,
+                                         "yoy":  -0.012622176327999357,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2016-05",
+                                         "sales":  924978.22074386664,
+                                         "profit":  110716.12011133572,
+                                         "mom":  0.027190997611657629,
+                                         "yoy":  -0.020087668531165823,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2016-06",
+                                         "sales":  901448.01018607488,
+                                         "profit":  104196.07010811912,
+                                         "mom":  -0.025438664424843067,
+                                         "yoy":  -0.020422941854973075,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2016-07",
+                                         "sales":  939216.40059965337,
+                                         "profit":  119941.72018309246,
+                                         "mom":  0.041897469390145187,
+                                         "yoy":  0.006731013760828089,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2016-08",
+                                         "sales":  942408.94046775613,
+                                         "profit":  110729.54011703275,
+                                         "mom":  0.0033991525979150759,
+                                         "yoy":  0.018608087546136076,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2016-09",
+                                         "sales":  900371.62996159529,
+                                         "profit":  123384.70997705942,
+                                         "mom":  -0.044606230587430545,
+                                         "yoy":  -0.015473366911290132,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2016-10",
+                                         "sales":  941882.28019466391,
+                                         "profit":  116781.97004818713,
+                                         "mom":  0.046103907377489477,
+                                         "yoy":  -0.0013241213422871068,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2016-11",
+                                         "sales":  941197.36096783122,
+                                         "profit":  109539.19996230895,
+                                         "mom":  -0.00072718134870447754,
+                                         "yoy":  0.017948025400156664,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2016-12",
+                                         "sales":  932112.89008413616,
+                                         "profit":  105002.68993700841,
+                                         "mom":  -0.0096520360770597589,
+                                         "yoy":  -0.019372444977643139,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2017-01",
+                                         "sales":  925472.61984052532,
+                                         "profit":  114843.85027699923,
+                                         "mom":  -0.007123890586913202,
+                                         "yoy":  -0.015751641373331345,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2017-02",
+                                         "sales":  891924.28969260212,
+                                         "profit":  115111.07009721469,
+                                         "mom":  -0.03624994346532278,
+                                         "yoy":  0.025062774519881374,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2017-03",
+                                         "sales":  942290.43065158429,
+                                         "profit":  118688.90021145077,
+                                         "mom":  0.056469076513591357,
+                                         "yoy":  0.022575124336173327,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2017-04",
+                                         "sales":  932318.20057465963,
+                                         "profit":  115961.06019266733,
+                                         "mom":  -0.010582968639540202,
+                                         "yoy":  0.035342066507937704,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2017-05",
+                                         "sales":  993199.05077958084,
+                                         "profit":  115014.64001427004,
+                                         "mom":  0.065300505951074991,
+                                         "yoy":  0.073753985235296748,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2017-06",
+                                         "sales":  927445.97016682732,
+                                         "profit":  110399.29030468671,
+                                         "mom":  -0.066203326071589255,
+                                         "yoy":  0.028840221163043973,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2017-07",
+                                         "sales":  992423.4305027487,
+                                         "profit":  113026.70003808104,
+                                         "mom":  0.07006064226494331,
+                                         "yoy":  0.056650448042777683,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2017-08",
+                                         "sales":  996507.88074760826,
+                                         "profit":  131501.16021114931,
+                                         "mom":  0.00411563262144118,
+                                         "yoy":  0.057404952305525385,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2017-09",
+                                         "sales":  1027111.7287129374,
+                                         "profit":  122462.39015285207,
+                                         "mom":  0.030711094770639644,
+                                         "yoy":  0.1407642072826619,
+                                         "policy":  "观察值比较"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2017-10",
+                                         "sales":  966081.40976943157,
+                                         "profit":  113447.16988253214,
+                                         "mom":  null,
+                                         "yoy":  null,
+                                         "policy":  "待核验"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2017-11",
+                                         "sales":  563393.47010095767,
+                                         "profit":  67791.250204681855,
+                                         "mom":  null,
+                                         "yoy":  null,
+                                         "policy":  "待核验"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2017-12",
+                                         "sales":  452741.53087499156,
+                                         "profit":  65837.62974494099,
+                                         "mom":  null,
+                                         "yoy":  null,
+                                         "policy":  "待核验"
+                                     },
+                                     {
+                                         "dim_date[order_month]":  "2018-01",
+                                         "sales":  297952.05099456484,
+                                         "profit":  33841.889977085993,
+                                         "mom":  null,
+                                         "yoy":  null,
+                                         "policy":  "待核验"
+                                     }
+                                 ]
+                    },
+                    {
+                        "id":  "rowcounts",
+                        "rows":  [
+                                     {
+                                         "fact_orders":  65752,
+                                         "fact_order_items":  180519,
+                                         "dim_product":  118,
+                                         "dim_customer":  20652,
+                                         "dim_date":  1127,
+                                         "dim_geography":  1117,
+                                         "dim_shipping":  4,
+                                         "build_metadata":  1,
+                                         "KPI":  1
+                                     }
+                                 ]
+                    }
+                ]
+}

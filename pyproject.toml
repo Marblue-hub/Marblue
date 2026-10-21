@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools==84.2.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataco-intelligence"
+version = "1.1.0"
+description = "Reproducible, order-grain DataCo descriptive analysis"
+requires-python = ">=3.12,<3.13"
+dependencies = ["pandas==3.0.1", "numpy==2.3.5", "pyarrow==26.0.0", "PyYAML==6.0.3", "matplotlib==3.11.2"]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+
+[project.scripts]
+dataco = "dataco.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["dataco*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

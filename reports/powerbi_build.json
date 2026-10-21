@@ -1,0 +1,30 @@
+{
+  "project": "<PROJECT_ROOT>\\powerbi\\DataCoSource\\DataCoSupplyChain.pbip",
+  "pages": [
+    {
+      "page": "经营总览",
+      "id": "4260227b7add40f79789",
+      "visuals": 21
+    },
+    {
+      "page": "时效与异常诊断",
+      "id": "2873637ee550e920acec",
+      "visuals": 21
+    },
+    {
+      "page": "商品与利润分析",
+      "id": "e33bf962d8eecd13e98b",
+      "visuals": 20
+    },
+    {
+      "page": "客户与市场分析",
+      "id": "25cbfd32f1ceabe6eed1",
+      "visuals": 21
+    }
+  ],
+  "measures": 46,
+  "desktop_verified": true,
+  "desktop_acceptance": "reports/powerbi/desktop_acceptance.json",
+  "pbix": "powerbi\\DataCoSupplyChain_P0.pbix",
+  "source_query_parity_checked": 83
+}

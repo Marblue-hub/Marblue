@@ -1,0 +1,29 @@
+{
+  "completed_at_utc": "2026-10-21T07:27:30.092230+00:00",
+  "desktop_version": "2.159.883.0",
+  "desktop_executable": "D:/Apps/Power BI Desktop/bin/PBIDesktop.exe",
+  "pbix": "powerbi\\DataCoSupplyChain_P0.pbix",
+  "pbix_bytes": 9506529,
+  "pbip": "powerbi/DataCoSource/DataCoSupplyChain.pbip",
+  "reopened_from_pbix": true,
+  "actual_dax_checks": 404,
+  "actual_dax_failed": 0,
+  "tests_passed": 29,
+  "visuals": 83,
+  "measures": 46,
+  "source_visual_queries_match_pbix": true,
+  "model_last_refresh_native": "2026-10-21T07:08:37.6166670",
+  "model_refresh_timezone": "Native ADOMD DateTime.Kind is Unspecified; no timezone conversion applied.",
+  "sha256": {
+    "powerbi\\DataCoSupplyChain_P0.pbix": "146b38a71aea3a596c08cf552b72c763697ebbd95bdf7cd12ecfd218ea715d0c",
+    "reports\\powerbi\\desktop_acceptance.json": "eaf8483d01f0a4ab56a1a0ad5b0895b718e8d452f2b41fda5ff9aacd2af98207",
+    "reports\\powerbi\\desktop_dax_results.json": "fef3aae96489675d9b3da19a8c7ff57670b26ce49ff2f5e5e937b799b77f5c2f",
+    "reports\\powerbi\\source_pbix_parity.json": "1b98c4248bebd5a430d2168b461dbaa7af3ad6b0db9cbeb2e132e296875315b0",
+    "reports\\powerbi_schema_validation.json": "1a3c2365b3333790ddcb61cd6e9926d66c980eb2243ddd452270de8edc6561cb",
+    "reports\\powerbi\\desktop_refresh_metadata.json": "626df59261da04bc4fcce47270de2607bacfc39a7fb224b4a745f161520c5f4f",
+    "reports\\powerbi\\screenshots\\商品与利润分析.png": "128dfca7e04a22ce57cb7e110e15c806dd0cda141e4356e73106f9be899363b5",
+    "reports\\powerbi\\screenshots\\客户与市场分析.png": "abd7c13d63b1778899401e0f5b09c030988c5dc16983afeb2d1a8a0a32955d16",
+    "reports\\powerbi\\screenshots\\时效与异常诊断.png": "ef343e5eab3342a2f0522d3654e91c24cdf921a4a8bfc55c56fe31c35f59d459",
+    "reports\\powerbi\\screenshots\\经营总览.png": "b896a031755c7ae5b4d06c73f168b7481b7d162ceb8bdf45541fc7a86e2a1479"
+  }
+}

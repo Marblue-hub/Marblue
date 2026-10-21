@@ -1,0 +1,5 @@
+identity,evaluated_rows,within_row_tolerance,row_tolerance,max_abs_error,signed_total_residual
+gross_minus_discount_vs_sales,180519,180519,0.011,0.010013549999996485,-45.76942933815786
+reported_profit_vs_benefit,180519,180519,0.011,0.0,0.0
+sales_vs_sales_per_customer,180519,180519,0.011,0.0,0.0
+gross_sales_vs_price_times_quantity,180519,180519,0.011,2.289999997628911e-05,0.04018497813420652

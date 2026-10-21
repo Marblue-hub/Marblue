@@ -1,0 +1,1232 @@
+{
+  "name": "DataCoSupplyChain",
+  "compatibilityLevel": 1601,
+  "model": {
+    "culture": "en-US",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "tables": [
+      {
+        "name": "dim_product",
+        "lineageTag": "a67c6a0e-c386-5bbd-8a69-c6f5c8d68853",
+        "columns": [
+          {
+            "name": "product_id",
+            "dataType": "int64",
+            "sourceColumn": "product_id",
+            "lineageTag": "2de0dd9d-ae58-580e-906e-48654473e7e4",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          },
+          {
+            "name": "category_id",
+            "dataType": "int64",
+            "sourceColumn": "category_id",
+            "lineageTag": "f11c5cd8-e4e3-53cb-8585-6ec10d913da8",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          },
+          {
+            "name": "category",
+            "dataType": "string",
+            "sourceColumn": "category",
+            "lineageTag": "b855479b-86e7-524e-b542-1d7f0037567a",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "department_id",
+            "dataType": "int64",
+            "sourceColumn": "department_id",
+            "lineageTag": "00efae9f-3295-593b-a714-1caf6a110efd",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          },
+          {
+            "name": "department",
+            "dataType": "string",
+            "sourceColumn": "department",
+            "lineageTag": "beb4d54f-7167-5aa6-9724-45250986172d",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "product_name",
+            "dataType": "string",
+            "sourceColumn": "product_name",
+            "lineageTag": "5280b795-19b0-531c-ad31-ea876edf165c",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_product",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "LoadData(\"dim_product\")"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_customer",
+        "lineageTag": "e2bfaece-a2fa-55c7-8cc3-589cf033b1a5",
+        "columns": [
+          {
+            "name": "customer_id",
+            "dataType": "int64",
+            "sourceColumn": "customer_id",
+            "lineageTag": "2b0207b9-c31b-52b1-8977-9dbb5f4b3933",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          },
+          {
+            "name": "customer_segment",
+            "dataType": "string",
+            "sourceColumn": "customer_segment",
+            "lineageTag": "4111d3db-ce59-50fd-9a10-8b8d2c4e7dbe",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_customer",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "LoadData(\"dim_customer\")"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_date",
+        "lineageTag": "6bc6f232-951d-5c8b-8378-32ce9850d02e",
+        "columns": [
+          {
+            "name": "date",
+            "dataType": "dateTime",
+            "sourceColumn": "date",
+            "lineageTag": "84763f5e-fc0e-5f9c-a64d-8b574fbb5aa2",
+            "summarizeBy": "none",
+            "formatString": "yyyy-MM-dd",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ]
+          },
+          {
+            "name": "date_key",
+            "dataType": "dateTime",
+            "sourceColumn": "date_key",
+            "lineageTag": "6e2d1b84-ce61-577d-821b-9f7d0c6104bc",
+            "summarizeBy": "none",
+            "formatString": "yyyy-MM-dd",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "isKey": true
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year",
+            "lineageTag": "f955a4a3-5188-588d-b374-387c55460f5b",
+            "summarizeBy": "none",
+            "formatString": "#,0"
+          },
+          {
+            "name": "month",
+            "dataType": "int64",
+            "sourceColumn": "month",
+            "lineageTag": "3088d46e-4ece-5765-830a-c43338e62121",
+            "summarizeBy": "none",
+            "formatString": "#,0"
+          },
+          {
+            "name": "quarter",
+            "dataType": "int64",
+            "sourceColumn": "quarter",
+            "lineageTag": "54b0bc66-87ca-59cb-aca6-3dc73d473c7d",
+            "summarizeBy": "none",
+            "formatString": "#,0"
+          },
+          {
+            "name": "weekday",
+            "dataType": "int64",
+            "sourceColumn": "weekday",
+            "lineageTag": "6e650dbe-2f7c-5b62-8335-2f22b89d80c4",
+            "summarizeBy": "none",
+            "formatString": "#,0"
+          },
+          {
+            "name": "order_month",
+            "dataType": "string",
+            "sourceColumn": "order_month",
+            "lineageTag": "6df504a2-04ae-5ed7-9958-2ca0597731db",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "observed_days",
+            "dataType": "int64",
+            "sourceColumn": "observed_days",
+            "lineageTag": "a5969615-26f3-520a-aec1-445ff27cbde2",
+            "summarizeBy": "none",
+            "formatString": "#,0"
+          },
+          {
+            "name": "days_in_month",
+            "dataType": "int64",
+            "sourceColumn": "days_in_month",
+            "lineageTag": "41868cc5-6b01-5b75-9ee9-9aa3d6101510",
+            "summarizeBy": "none",
+            "formatString": "#,0"
+          },
+          {
+            "name": "partial_month",
+            "dataType": "int64",
+            "sourceColumn": "partial_month",
+            "lineageTag": "34e6cb93-5cf8-5a91-a4d8-b6a061ef2ce6",
+            "summarizeBy": "none",
+            "formatString": "#,0"
+          },
+          {
+            "name": "business_completeness",
+            "dataType": "string",
+            "sourceColumn": "business_completeness",
+            "lineageTag": "d5b58fbb-8b0f-54fe-86e2-c4880d3078b0",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "is_comparable",
+            "dataType": "int64",
+            "sourceColumn": "is_comparable",
+            "lineageTag": "b3cbf8ce-27fa-5765-9647-d376e10c092e",
+            "summarizeBy": "none",
+            "formatString": "#,0"
+          },
+          {
+            "name": "comparison_status",
+            "dataType": "string",
+            "sourceColumn": "comparison_status",
+            "lineageTag": "221f6933-0e6e-5284-91d2-c8eddc578b48",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "month_start",
+            "type": "calculated",
+            "dataType": "dateTime",
+            "expression": "DATE(YEAR(dim_date[date_key]),MONTH(dim_date[date_key]),1)",
+            "formatString": "yyyy-MM",
+            "lineageTag": "7a14a194-0ffc-599a-b3c8-39f3f5831b4f",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_date",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "LoadData(\"dim_date\")"
+            }
+          }
+        ],
+        "dataCategory": "Time"
+      },
+      {
+        "name": "dim_geography",
+        "lineageTag": "713c7291-22ca-5953-8efb-b048c67ff9a6",
+        "columns": [
+          {
+            "name": "geo_key",
+            "dataType": "int64",
+            "sourceColumn": "geo_key",
+            "lineageTag": "af511755-50b6-5c21-9e7c-8345f4a4ee18",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          },
+          {
+            "name": "market",
+            "dataType": "string",
+            "sourceColumn": "market",
+            "lineageTag": "4a579aef-7472-56bb-9810-33618155eed7",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "region",
+            "dataType": "string",
+            "sourceColumn": "region",
+            "lineageTag": "7bc79d4c-2718-530d-9503-9c385e71086a",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "country",
+            "dataType": "string",
+            "sourceColumn": "country",
+            "lineageTag": "fae54649-14cc-5589-9080-51c01ffb8b3b",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "state",
+            "dataType": "string",
+            "sourceColumn": "state",
+            "lineageTag": "5dd86d4e-0e7b-57de-a6ec-00121f3b4865",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_geography",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "LoadData(\"dim_geography\")"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_shipping",
+        "lineageTag": "11c7ae87-0069-5125-931b-740b02fffe1c",
+        "columns": [
+          {
+            "name": "shipping_mode_key",
+            "dataType": "int64",
+            "sourceColumn": "shipping_mode_key",
+            "lineageTag": "fc6d88bc-bfe2-58e4-9976-0517177ff670",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          },
+          {
+            "name": "shipping_mode",
+            "dataType": "string",
+            "sourceColumn": "shipping_mode",
+            "lineageTag": "3d5c5338-5200-5714-ac4d-9718e207a439",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "planned_days_min",
+            "dataType": "double",
+            "sourceColumn": "planned_days_min",
+            "lineageTag": "ab2166db-726a-5288-a0c4-57a68b18ba3e",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "planned_days_max",
+            "dataType": "double",
+            "sourceColumn": "planned_days_max",
+            "lineageTag": "782295e6-132e-503d-9dd1-c8f6bf5892cb",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_shipping",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "LoadData(\"dim_shipping\")"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fact_orders",
+        "lineageTag": "2d1cede0-1933-51a2-b1b8-feb12e74b14a",
+        "columns": [
+          {
+            "name": "order_id",
+            "dataType": "int64",
+            "sourceColumn": "order_id",
+            "lineageTag": "88e0881e-2c56-50d1-bec1-74ee96044c58",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          },
+          {
+            "name": "shipping_mode",
+            "dataType": "string",
+            "sourceColumn": "shipping_mode",
+            "lineageTag": "fa576750-c1da-5aac-93b0-f6c2e6c08789",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "market",
+            "dataType": "string",
+            "sourceColumn": "market",
+            "lineageTag": "f3f72116-9e0c-55f1-bb4e-7379623feff3",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "region",
+            "dataType": "string",
+            "sourceColumn": "region",
+            "lineageTag": "f67daa03-e721-59f9-9073-fcc5cbe8d951",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "country",
+            "dataType": "string",
+            "sourceColumn": "country",
+            "lineageTag": "8942a996-4808-5ec9-8c2d-3419687a9dd5",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "state",
+            "dataType": "string",
+            "sourceColumn": "state",
+            "lineageTag": "1e7ba0fc-e540-51f2-bf8a-27df3e80ac7b",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "order_date",
+            "dataType": "dateTime",
+            "sourceColumn": "order_date",
+            "lineageTag": "33702675-4ad9-5872-a24e-1ff6fb99301c",
+            "summarizeBy": "none",
+            "formatString": "yyyy-MM-dd HH:mm"
+          },
+          {
+            "name": "shipping_date",
+            "dataType": "dateTime",
+            "sourceColumn": "shipping_date",
+            "lineageTag": "5faa09c1-1e96-5dbf-ab10-3fc07d58ba7a",
+            "summarizeBy": "none",
+            "formatString": "yyyy-MM-dd HH:mm"
+          },
+          {
+            "name": "customer_id",
+            "dataType": "int64",
+            "sourceColumn": "customer_id",
+            "lineageTag": "51bca1da-ee09-5e96-80c4-fe9dd99f42ad",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          },
+          {
+            "name": "customer_segment",
+            "dataType": "string",
+            "sourceColumn": "customer_segment",
+            "lineageTag": "370a51be-e9d5-556b-82bd-c38b3c4631c6",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "delivery_status",
+            "dataType": "string",
+            "sourceColumn": "delivery_status",
+            "lineageTag": "8c4fba3c-295e-5fbf-bf60-e13cddd56ae5",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "order_status",
+            "dataType": "string",
+            "sourceColumn": "order_status",
+            "lineageTag": "6c9eee6b-5606-5099-bf60-bd331467d057",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "actual_days",
+            "dataType": "double",
+            "sourceColumn": "actual_days",
+            "lineageTag": "b32c8536-3138-517c-8db0-cb9f30952bf0",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "planned_days",
+            "dataType": "double",
+            "sourceColumn": "planned_days",
+            "lineageTag": "8587c6b1-abdc-5719-a427-489c9b9a543e",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "is_canceled",
+            "dataType": "int64",
+            "sourceColumn": "is_canceled",
+            "lineageTag": "7e7f0a1e-557b-589b-bc79-b8bcd24125c8",
+            "summarizeBy": "none",
+            "formatString": "#,0"
+          },
+          {
+            "name": "is_over_schedule",
+            "dataType": "int64",
+            "sourceColumn": "is_over_schedule",
+            "lineageTag": "6441941a-6936-5691-b669-48f1bbaf92c5",
+            "summarizeBy": "none",
+            "formatString": "#,0"
+          },
+          {
+            "name": "sales",
+            "dataType": "double",
+            "sourceColumn": "sales",
+            "lineageTag": "5759a0bc-224d-56b8-bee0-528d28ab1cc4",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "gross_sales",
+            "dataType": "double",
+            "sourceColumn": "gross_sales",
+            "lineageTag": "4e331542-c167-5c1a-9844-e4dd9ccf8af1",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "reported_profit",
+            "dataType": "double",
+            "sourceColumn": "reported_profit",
+            "lineageTag": "cede16d0-4074-5b1c-b5e7-0c8c676925b0",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "discount",
+            "dataType": "double",
+            "sourceColumn": "discount",
+            "lineageTag": "87b51592-baf5-5789-8108-2d733b7b9118",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "quantity",
+            "dataType": "double",
+            "sourceColumn": "quantity",
+            "lineageTag": "fafac231-32c3-5029-adf0-b3a3223f4e5e",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "item_count",
+            "dataType": "int64",
+            "sourceColumn": "item_count",
+            "lineageTag": "36aa80e7-9408-5899-9879-a52c4ec639dd",
+            "summarizeBy": "none",
+            "formatString": "#,0"
+          },
+          {
+            "name": "is_order_conflict",
+            "dataType": "int64",
+            "sourceColumn": "is_order_conflict",
+            "lineageTag": "1df4171a-c0e9-544b-93f0-88e619422e77",
+            "summarizeBy": "none",
+            "formatString": "#,0"
+          },
+          {
+            "name": "positive_over_days",
+            "dataType": "double",
+            "sourceColumn": "positive_over_days",
+            "lineageTag": "c7317e7a-107c-5111-9065-38723722c838",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "timing_state",
+            "dataType": "string",
+            "sourceColumn": "timing_state",
+            "lineageTag": "2e07a62d-d541-52a5-abbe-1ff42fe8333d",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_key",
+            "dataType": "dateTime",
+            "sourceColumn": "date_key",
+            "lineageTag": "224355cd-6ab5-522b-afeb-c7ed7b5fed31",
+            "summarizeBy": "none",
+            "formatString": "yyyy-MM-dd",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ]
+          },
+          {
+            "name": "order_month",
+            "dataType": "string",
+            "sourceColumn": "order_month",
+            "lineageTag": "0f13c7ec-e837-585d-b7ee-1e630bd6d6e9",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "geo_key",
+            "dataType": "int64",
+            "sourceColumn": "geo_key",
+            "lineageTag": "5eb21527-9670-58dc-9563-15ab829c997a",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          },
+          {
+            "name": "shipping_mode_key",
+            "dataType": "int64",
+            "sourceColumn": "shipping_mode_key",
+            "lineageTag": "a9714979-de39-565d-b3c2-3b9826c9f349",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          },
+          {
+            "name": "timing_label",
+            "type": "calculated",
+            "dataType": "string",
+            "expression": "SWITCH(fact_orders[timing_state],\"over_schedule\",\"实际时长超过计划\",\"within_schedule\",\"未超过计划\",\"not_applicable_canceled\",\"已取消\",\"未知或属性冲突\")",
+            "lineageTag": "38577160-7e08-57d2-97d1-ee0f5439ff53",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fact_orders",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "LoadData(\"fact_orders\")"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fact_order_items",
+        "lineageTag": "b2205526-8e87-5db6-a069-19ce7655b357",
+        "columns": [
+          {
+            "name": "order_item_id",
+            "dataType": "int64",
+            "sourceColumn": "order_item_id",
+            "lineageTag": "35fe31ba-bdfb-5d53-aa83-7a8155fbb5a2",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          },
+          {
+            "name": "order_id",
+            "dataType": "int64",
+            "sourceColumn": "order_id",
+            "lineageTag": "786a170b-018e-54ad-b5b4-31374fac2962",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          },
+          {
+            "name": "product_id",
+            "dataType": "int64",
+            "sourceColumn": "product_id",
+            "lineageTag": "85aee66d-1901-5d15-95a5-15cec24ce4c0",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          },
+          {
+            "name": "quantity",
+            "dataType": "double",
+            "sourceColumn": "quantity",
+            "lineageTag": "36881e73-ed93-526c-8798-ea6dbe62c655",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "sales",
+            "dataType": "double",
+            "sourceColumn": "sales",
+            "lineageTag": "95b5e8a8-26b9-55b9-b845-797d8c768461",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "gross_sales",
+            "dataType": "double",
+            "sourceColumn": "gross_sales",
+            "lineageTag": "2c11e717-0036-587e-a9df-b5cbb4b0c4a1",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "reported_profit",
+            "dataType": "double",
+            "sourceColumn": "reported_profit",
+            "lineageTag": "7ad1b44f-af47-5b9c-819e-97b3ae7804dd",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "discount",
+            "dataType": "double",
+            "sourceColumn": "discount",
+            "lineageTag": "3b0c0f6f-4a5f-505f-9ffd-66926ed7229b",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "discount_rate",
+            "dataType": "double",
+            "sourceColumn": "discount_rate",
+            "lineageTag": "f91bd829-0768-51de-af22-f8afdbd26d41",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "unit_price",
+            "dataType": "double",
+            "sourceColumn": "unit_price",
+            "lineageTag": "9371e510-4d0f-5b0a-956f-4fa5eca43ce7",
+            "summarizeBy": "none",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "source_row",
+            "dataType": "int64",
+            "sourceColumn": "source_row",
+            "lineageTag": "0d1191f3-44ff-5632-895f-dc6867748e52",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "formatString": "#,0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fact_order_items",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "LoadData(\"fact_order_items\")"
+            }
+          }
+        ]
+      },
+      {
+        "name": "build_metadata",
+        "lineageTag": "9ccee1ff-db3a-5636-83f4-825c2e9f7813",
+        "columns": [
+          {
+            "name": "loaded_at_utc",
+            "dataType": "string",
+            "sourceColumn": "loaded_at_utc",
+            "lineageTag": "13e24caf-40c5-518c-806b-f94e512a7980",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "source_sha256",
+            "dataType": "string",
+            "sourceColumn": "source_sha256",
+            "lineageTag": "4f2c3df5-07ac-5a3c-af7a-218010e60580",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rule_version",
+            "dataType": "string",
+            "sourceColumn": "rule_version",
+            "lineageTag": "fa6041cd-9f20-5e2c-809e-476b0ec8fc80",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sales_field",
+            "dataType": "string",
+            "sourceColumn": "sales_field",
+            "lineageTag": "53196fd7-7a6e-5074-b2bf-f6702fa5fa9a",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "build_metadata",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "LoadData(\"build_metadata\")"
+            }
+          }
+        ],
+        "isHidden": true
+      },
+      {
+        "name": "KPI",
+        "lineageTag": "12677691-9e5c-55e6-ba82-fa71115caa4a",
+        "columns": [
+          {
+            "name": "Dummy",
+            "dataType": "int64",
+            "sourceColumn": "Dummy",
+            "isHidden": true,
+            "summarizeBy": "none"
+          }
+        ],
+        "measures": [
+          {
+            "name": "Orders",
+            "expression": "VAR SelectedOrderIds = VALUES(fact_order_items[order_id])\nRETURN COALESCE(CALCULATE(COUNTROWS(fact_orders), TREATAS(SelectedOrderIds, fact_orders[order_id])), 0)",
+            "lineageTag": "218b8565-2369-5533-b28b-aaa2c090fd5a",
+            "displayFolder": "业务指标",
+            "description": "独立订单数",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Order Items",
+            "expression": "COALESCE(COUNTROWS(fact_order_items), 0)",
+            "lineageTag": "9bd5c168-5828-5534-833f-eb9a77f3aa44",
+            "displayFolder": "业务指标",
+            "description": "订单明细数",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Recorded Discount",
+            "expression": "SUM(fact_order_items[discount])",
+            "lineageTag": "4d99939b-26aa-5f87-b888-18fdd86fe7b3",
+            "displayFolder": "业务指标",
+            "description": "Recorded Discount",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Conflict Orders",
+            "expression": "CALCULATE([Orders], KEEPFILTERS(fact_orders[is_order_conflict] == 1))",
+            "lineageTag": "bb2d529d-00a4-58a3-a263-7a2c08ead3d8",
+            "displayFolder": "业务指标",
+            "description": "Conflict Orders",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Sales",
+            "expression": "SUM(fact_order_items[sales])",
+            "lineageTag": "9808ae8b-656a-5afe-b2c0-a52de542ab0e",
+            "displayFolder": "业务指标",
+            "description": "记录销售额（折扣后）",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Gross Sales",
+            "expression": "SUM(fact_order_items[gross_sales])",
+            "lineageTag": "e7f09147-b94e-5f3f-b528-83da7cbe5f72",
+            "displayFolder": "业务指标",
+            "description": "折扣前金额",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Reported Profit",
+            "expression": "SUM(fact_order_items[reported_profit])",
+            "lineageTag": "3c288c8f-5e77-5de0-9a82-6b85d54fef9b",
+            "displayFolder": "业务指标",
+            "description": "记录利润",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Reported Profit Margin",
+            "expression": "DIVIDE([Reported Profit], [Sales])",
+            "lineageTag": "62694a49-6aac-5eb5-b3f1-248ee899839d",
+            "displayFolder": "业务指标",
+            "description": "记录利润率",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Average Order Value",
+            "expression": "DIVIDE([Sales], [Orders])",
+            "lineageTag": "e4c04eec-fe06-5467-af12-dbc4aeec468f",
+            "displayFolder": "业务指标",
+            "description": "订单客单价",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Canceled Orders",
+            "expression": "CALCULATE([Orders], KEEPFILTERS(fact_orders[is_canceled] = 1))",
+            "lineageTag": "0a3050f3-f939-5035-8602-5d2b8214c06e",
+            "displayFolder": "业务指标",
+            "description": "Canceled Orders",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Canceled Order Rate",
+            "expression": "DIVIDE([Canceled Orders], [Orders])",
+            "lineageTag": "764a35c7-77af-55c2-8342-223c84410dfe",
+            "displayFolder": "业务指标",
+            "description": "运营取消率",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Eligible Orders",
+            "expression": "CALCULATE([Orders], KEEPFILTERS(FILTER(fact_orders, NOT ISBLANK(fact_orders[is_over_schedule]))))",
+            "lineageTag": "0d2aa720-1e2b-5ffc-93ce-10076d47b427",
+            "displayFolder": "业务指标",
+            "description": "有效未取消订单",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Over Schedule Orders",
+            "expression": "CALCULATE([Orders], KEEPFILTERS(fact_orders[is_over_schedule] == 1))",
+            "lineageTag": "b741a3c0-8355-54a5-8ef8-0f221294b871",
+            "displayFolder": "业务指标",
+            "description": "超期订单数",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Within Schedule Orders",
+            "expression": "CALCULATE([Orders], KEEPFILTERS(fact_orders[is_over_schedule] == 0))",
+            "lineageTag": "835af11e-ad10-5e83-b6e6-32994b819325",
+            "displayFolder": "业务指标",
+            "description": "Within Schedule Orders",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Unknown Timing Orders",
+            "expression": "[Orders] - [Canceled Orders] - [Eligible Orders]",
+            "lineageTag": "38381f9a-e570-5da6-b4fc-a2f535247860",
+            "displayFolder": "业务指标",
+            "description": "未知时效订单",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Over Schedule Order Rate",
+            "expression": "DIVIDE([Over Schedule Orders], [Eligible Orders])",
+            "lineageTag": "b7802e79-01a2-5700-8fe5-933b82d6f5fb",
+            "displayFolder": "业务指标",
+            "description": "超期订单率",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Average Positive Over Days",
+            "expression": "VAR SelectedOrderIds = VALUES(fact_order_items[order_id])\nRETURN CALCULATE(\n    AVERAGE(fact_orders[positive_over_days]),\n    TREATAS(SelectedOrderIds, fact_orders[order_id]),\n    KEEPFILTERS(fact_orders[is_over_schedule] == 1))",
+            "lineageTag": "817ad87f-6397-5d9c-acea-80cd73c0de48",
+            "displayFolder": "业务指标",
+            "description": "平均正超期天数",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Over Schedule Order Sales Exposure",
+            "expression": "VAR SelectedOrderIds = VALUES(fact_order_items[order_id])\nRETURN CALCULATE(SUM(fact_orders[sales]),\n    TREATAS(SelectedOrderIds, fact_orders[order_id]),\n    KEEPFILTERS(fact_orders[is_over_schedule] == 1))",
+            "lineageTag": "59109ba0-2ddc-5085-b4bf-32fdb7863f35",
+            "displayFolder": "业务指标",
+            "description": "Over Schedule Order Sales Exposure",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Canceled Sales Exposure",
+            "expression": "CALCULATE([Sales], KEEPFILTERS(fact_orders[is_canceled] == 1))",
+            "lineageTag": "539518ea-2a21-526d-aca8-165dcf44e842",
+            "displayFolder": "业务指标",
+            "description": "Canceled Sales Exposure",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Eligible Items",
+            "expression": "CALCULATE([Order Items], KEEPFILTERS(FILTER(fact_orders, NOT ISBLANK(fact_orders[is_over_schedule]))))",
+            "lineageTag": "8b6adda8-7b30-5275-b4b1-0a4ddb374f67",
+            "displayFolder": "业务指标",
+            "description": "Eligible Items",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Over Schedule Items",
+            "expression": "CALCULATE([Order Items], KEEPFILTERS(fact_orders[is_over_schedule] == 1))",
+            "lineageTag": "f7c28ab0-2957-55cc-9cda-d6275f1b5c4b",
+            "displayFolder": "业务指标",
+            "description": "Over Schedule Items",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Over Schedule Item Rate",
+            "expression": "DIVIDE([Over Schedule Items], [Eligible Items])",
+            "lineageTag": "b7c0a650-fc5f-570b-ae3e-a14f3a748749",
+            "displayFolder": "业务指标",
+            "description": "Over Schedule Item Rate",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Negative Profit Items",
+            "expression": "CALCULATE([Order Items], KEEPFILTERS(fact_order_items[reported_profit] < 0))",
+            "lineageTag": "0b4ea824-9c24-58a0-8f36-ba106b49ca33",
+            "displayFolder": "业务指标",
+            "description": "负利润明细数",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Negative Profit Item Rate",
+            "expression": "DIVIDE([Negative Profit Items], [Order Items])",
+            "lineageTag": "657848ee-7226-5454-bcf6-89d8b096b9d4",
+            "displayFolder": "业务指标",
+            "description": "负利润明细比例",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Small Sample Note",
+            "expression": "IF([Eligible Orders] < 100, \"小样本 <100\", BLANK())",
+            "lineageTag": "5fa58be9-69a5-5910-a874-486dc55d1799",
+            "displayFolder": "业务指标",
+            "description": "样本提示"
+          },
+          {
+            "name": "First Class Audit Note",
+            "expression": "\"First Class 结果需验证计划规则和源字段定义；不可据此推断服务质量根因。\"",
+            "lineageTag": "d486e3bd-d82d-5074-9741-dcf153f3c88f",
+            "displayFolder": "业务指标",
+            "description": "First Class Audit Note"
+          },
+          {
+            "name": "Timing Definition",
+            "expression": "\"未取消且时长有效的独立订单中，实际运输时长超过计划时长的比例。无最终签收时间。\"",
+            "lineageTag": "1817f46e-21e9-5f24-98a0-7b4622c6c75f",
+            "displayFolder": "业务指标",
+            "description": "Timing Definition"
+          },
+          {
+            "name": "Money Definition",
+            "expression": "\"记录销售额采用 Order Item Total（折扣后）；币种待核验；记录利润不是财务净利润。\"",
+            "lineageTag": "eb0a5a77-2d69-5ed7-9b44-06ff7af4c474",
+            "displayFolder": "业务指标",
+            "description": "Money Definition"
+          },
+          {
+            "name": "Comparable Sales",
+            "expression": "CALCULATE([Sales], KEEPFILTERS(dim_date[is_comparable] = 1))",
+            "lineageTag": "c144029f-fbf2-506b-9492-e4dfb161a646",
+            "displayFolder": "业务指标",
+            "description": "Comparable Sales",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Data Refresh UTC",
+            "expression": "SELECTEDVALUE(build_metadata[loaded_at_utc])",
+            "lineageTag": "de5c577d-7c54-509b-a087-b7ad86f1c1ee",
+            "displayFolder": "业务指标",
+            "description": "Data Refresh UTC"
+          },
+          {
+            "name": "Sales Millions",
+            "expression": "DIVIDE([Sales],1000000)",
+            "lineageTag": "e543ce6b-624f-590f-ad81-a340cdbe6fe2",
+            "displayFolder": "业务指标",
+            "description": "记录销售额（百万）",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Profit Millions",
+            "expression": "DIVIDE([Reported Profit],1000000)",
+            "lineageTag": "6d0205d9-3b4f-54b2-9313-7bd0452eb04b",
+            "displayFolder": "业务指标",
+            "description": "记录利润（百万）",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Over Schedule Exposure Millions",
+            "expression": "DIVIDE([Over Schedule Order Sales Exposure],1000000)",
+            "lineageTag": "4b28af5c-24bf-5835-8c19-e84bc30844b7",
+            "displayFolder": "业务指标",
+            "description": "超期整篮金额（百万）",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Customers",
+            "expression": "VAR SelectedOrderIds=VALUES(fact_order_items[order_id])\nRETURN CALCULATE(DISTINCTCOUNT(fact_orders[customer_id]),TREATAS(SelectedOrderIds,fact_orders[order_id]))",
+            "lineageTag": "e56c794c-0848-54c3-9746-068b6562fceb",
+            "displayFolder": "业务指标",
+            "description": "涉及客户数",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Data Loaded UTC Display",
+            "expression": "VAR Stamp=[Data Refresh UTC]\nRETURN LEFT(SUBSTITUTE(Stamp,\"T\",\" \"),19)&\" UTC\" ",
+            "lineageTag": "6e6a5a47-dd77-5edb-834a-80028b88b0c6",
+            "displayFolder": "业务指标",
+            "description": "源数据载入时间（UTC）"
+          },
+          {
+            "name": "Negative Profit Magnitude",
+            "expression": "-CALCULATE([Reported Profit],KEEPFILTERS(fact_order_items[reported_profit]<0))",
+            "lineageTag": "aa5afd92-0198-5ea9-9604-d79baea879cc",
+            "displayFolder": "业务指标",
+            "description": "负利润明细绝对额",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Category Sales Rank",
+            "expression": "RANKX(ALLSELECTED(dim_product[category]),[Sales],,DESC,DENSE)",
+            "lineageTag": "bc2a6a27-9d24-574c-b9b5-d58478f7a095",
+            "displayFolder": "业务指标",
+            "description": "Category Sales Rank",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Top Category Sales",
+            "expression": "IF([Category Sales Rank]<=10,[Sales])",
+            "lineageTag": "dfef1834-078d-5496-bc1d-25a70a000dcd",
+            "displayFolder": "业务指标",
+            "description": "销售额",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Top Category Profit",
+            "expression": "IF([Category Sales Rank]<=10,[Reported Profit])",
+            "lineageTag": "a86eb0f1-c43d-5ec4-9bb7-507edf5fb087",
+            "displayFolder": "业务指标",
+            "description": "记录利润",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Loss Category Rank",
+            "expression": "RANKX(ALLSELECTED(dim_product[category]),[Negative Profit Magnitude],,DESC,DENSE)",
+            "lineageTag": "c28336a8-801d-59be-8596-5ea3743a6dd2",
+            "displayFolder": "业务指标",
+            "description": "Loss Category Rank",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Top Loss Magnitude",
+            "expression": "IF([Loss Category Rank]<=10,[Negative Profit Magnitude])",
+            "lineageTag": "6b061548-3ac8-5a45-9652-ef504ac0df50",
+            "displayFolder": "业务指标",
+            "description": "负利润明细绝对额",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Top Loss Cumulative Share",
+            "expression": "VAR CurrentLoss=[Negative Profit Magnitude]\nVAR TotalLoss=CALCULATE([Negative Profit Magnitude],ALLSELECTED(dim_product[category]))\nVAR CumulativeLoss=SUMX(FILTER(ALLSELECTED(dim_product[category]),[Negative Profit Magnitude]>=CurrentLoss),[Negative Profit Magnitude])\nRETURN IF([Loss Category Rank]<=10,DIVIDE(CumulativeLoss,TotalLoss))",
+            "lineageTag": "874ad1bf-7a4f-52dc-9028-491d3610a759",
+            "displayFolder": "业务指标",
+            "description": "累计负利润占比",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Top Country Sales",
+            "expression": "IF(RANKX(ALLSELECTED(dim_geography[country]),[Sales],,DESC,DENSE)<=10,[Sales])",
+            "lineageTag": "e7481bae-7a90-568b-9d07-f317116f6d98",
+            "displayFolder": "业务指标",
+            "description": "记录销售额",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Comparison Policy",
+            "expression": "VAR CurrentMonth=SELECTEDVALUE(dim_date[order_month])\nRETURN IF(NOT HASONEVALUE(dim_date[order_month]),\"请按月查看\",\nIF(CurrentMonth>=\"2017-10\",\"待核验\",IF(SELECTEDVALUE(dim_date[is_comparable],0)=1,\"观察值比较\",\"不适用\")))",
+            "lineageTag": "f78d46b9-b268-5cd1-93ff-241c651400e0",
+            "displayFolder": "业务指标",
+            "description": "同比/环比状态"
+          },
+          {
+            "name": "Sales MoM",
+            "expression": "VAR CurrentMonth=SELECTEDVALUE(dim_date[order_month])\nVAR StartDate=IF(NOT ISBLANK(CurrentMonth),DATE(VALUE(LEFT(CurrentMonth,4)),VALUE(RIGHT(CurrentMonth,2)),1))\nVAR PriorMonth=IF(NOT ISBLANK(StartDate),FORMAT(EDATE(StartDate,-1),\"yyyy-MM\"))\nVAR PriorAllowed=CALCULATE(MAX(dim_date[is_comparable]),REMOVEFILTERS(dim_date),dim_date[order_month]=PriorMonth)\nVAR PriorSales=CALCULATE([Sales],REMOVEFILTERS(dim_date),dim_date[order_month]=PriorMonth)\nRETURN IF(NOT ISBLANK(CurrentMonth)&&CurrentMonth<\"2017-10\"&&SELECTEDVALUE(dim_date[is_comparable],0)=1&&PriorAllowed=1,\nDIVIDE([Sales]-PriorSales,PriorSales))",
+            "lineageTag": "84efc435-034c-5334-aacb-ffa8932f84ae",
+            "displayFolder": "业务指标",
+            "description": "金额观察值环比",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Sales YoY",
+            "expression": "VAR CurrentMonth=SELECTEDVALUE(dim_date[order_month])\nVAR StartDate=IF(NOT ISBLANK(CurrentMonth),DATE(VALUE(LEFT(CurrentMonth,4)),VALUE(RIGHT(CurrentMonth,2)),1))\nVAR PriorMonth=IF(NOT ISBLANK(StartDate),FORMAT(EDATE(StartDate,-12),\"yyyy-MM\"))\nVAR PriorAllowed=CALCULATE(MAX(dim_date[is_comparable]),REMOVEFILTERS(dim_date),dim_date[order_month]=PriorMonth)\nVAR PriorSales=CALCULATE([Sales],REMOVEFILTERS(dim_date),dim_date[order_month]=PriorMonth)\nRETURN IF(NOT ISBLANK(CurrentMonth)&&CurrentMonth<\"2017-10\"&&SELECTEDVALUE(dim_date[is_comparable],0)=1&&PriorAllowed=1,\nDIVIDE([Sales]-PriorSales,PriorSales))",
+            "lineageTag": "f8437744-425d-525f-acf0-490cfe47497a",
+            "displayFolder": "业务指标",
+            "description": "金额观察值同比",
+            "formatString": "0.00%"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "KPI",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "#table(type table [Dummy=Int64.Type], {{1}})"
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "51bca1da-ee09-5e96-80c4-fe9dd99f42ad",
+        "fromTable": "fact_orders",
+        "fromColumn": "customer_id",
+        "toTable": "dim_customer",
+        "toColumn": "customer_id",
+        "crossFilteringBehavior": "oneDirection",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "isActive": true
+      },
+      {
+        "name": "224355cd-6ab5-522b-afeb-c7ed7b5fed31",
+        "fromTable": "fact_orders",
+        "fromColumn": "date_key",
+        "toTable": "dim_date",
+        "toColumn": "date_key",
+        "crossFilteringBehavior": "oneDirection",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "isActive": true
+      },
+      {
+        "name": "5eb21527-9670-58dc-9563-15ab829c997a",
+        "fromTable": "fact_orders",
+        "fromColumn": "geo_key",
+        "toTable": "dim_geography",
+        "toColumn": "geo_key",
+        "crossFilteringBehavior": "oneDirection",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "isActive": true
+      },
+      {
+        "name": "a9714979-de39-565d-b3c2-3b9826c9f349",
+        "fromTable": "fact_orders",
+        "fromColumn": "shipping_mode_key",
+        "toTable": "dim_shipping",
+        "toColumn": "shipping_mode_key",
+        "crossFilteringBehavior": "oneDirection",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "isActive": true
+      },
+      {
+        "name": "786a170b-018e-54ad-b5b4-31374fac2962",
+        "fromTable": "fact_order_items",
+        "fromColumn": "order_id",
+        "toTable": "fact_orders",
+        "toColumn": "order_id",
+        "crossFilteringBehavior": "oneDirection",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "isActive": true
+      },
+      {
+        "name": "85aee66d-1901-5d15-95a5-15cec24ce4c0",
+        "fromTable": "fact_order_items",
+        "fromColumn": "product_id",
+        "toTable": "dim_product",
+        "toColumn": "product_id",
+        "crossFilteringBehavior": "oneDirection",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "isActive": true
+      }
+    ],
+    "expressions": [
+      {
+        "name": "DataFolder",
+        "kind": "m",
+        "expression": "\"\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]"
+      },
+      {
+        "name": "LoadData",
+        "kind": "m",
+        "expression": "(name as text) as table =>\nlet\n    Source = Csv.Document(File.Contents(DataFolder & \"/\" & name & \".csv\"),\n        [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),\n    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),\n    NumericNames = {\"order_id\",\"order_item_id\",\"product_id\",\"customer_id\",\"category_id\",\n        \"department_id\",\"geo_key\",\"shipping_mode_key\",\"quantity\",\"year\",\"month\",\"quarter\",\n        \"weekday\",\"observed_days\",\"days_in_month\",\"partial_month\",\"is_comparable\",\n        \"is_canceled\",\"is_over_schedule\",\"is_order_conflict\",\"item_count\",\"source_row\",\n        \"orders\",\"order_items\",\"planned_days_min\",\"planned_days_max\"},\n    RealNames = {\"sales\",\"gross_sales\",\"reported_profit\",\"discount\",\"discount_rate\",\n        \"unit_price\",\"actual_days\",\"planned_days\",\"positive_over_days\"},\n    Conversions = List.Transform(Table.ColumnNames(Headers), (c) =>\n        {c, if List.Contains(NumericNames,c) then Int64.Type\n            else if List.Contains(RealNames,c) then type number\n            else if c=\"date_key\" or c=\"date\" then type date\n            else if c=\"order_date\" or c=\"shipping_date\" then type datetime\n            else type text}),\n    EmptyToNull = Table.ReplaceValue(Headers,\"\",null,Replacer.ReplaceValue,Table.ColumnNames(Headers)),\n    Typed = Table.TransformColumnTypes(EmptyToNull,Conversions,\"en-US\")\nin Typed"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"DataFolder\", \"LoadData\", \"dim_product\", \"dim_customer\", \"dim_date\", \"dim_geography\", \"dim_shipping\", \"fact_orders\", \"fact_order_items\", \"build_metadata\"]"
+      }
+    ]
+  }
+}

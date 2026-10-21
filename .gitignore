@@ -1,0 +1,61 @@
+# SQLite Database Files
+*.db
+*.sqlite3
+
+# Large Dataset Files (Keep structure, ignore raw data)
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed Data (Optional: ignore if very large, but keep small summary CSVs if needed)
+# data/processed/*.csv
+
+# Python / Jupyter Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Environment / OS Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.env
+
+# Internal Notes & Career Preparation
+notes/
+
+
+
+# Large generated data files
+data/processed/dataco_cleaned.csv
+data/dataco_logistics.db
+# P0 reproducible outputs and local environment
+.venv/
+.pytest_cache/
+*.egg-info/
+.env
+.env.*
+!.env.example
+data/interim/
+data/processed/
+data/db/
+reports/data_quality_issues.csv
+reports/order_conflicts.csv
+reports/duplicate_keys.csv
+powerbi/data/
+legacy/
+.pytest_tmp*/
+.tmp/
+.tools/
+**/.pbi/cache.abf
+**/.pbi/localSettings.json
+**/.pbi/unappliedChanges.json
+# Local Desktop working copy and imported-data delivery (keep source PBIP).
+powerbi/DataCo/
+powerbi/*.pbix
+
+
+config/*.local.yaml
+*.pem
+*.key

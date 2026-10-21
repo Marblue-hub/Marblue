@@ -1,0 +1,37 @@
+{
+  "source_sha256": "fa6d022ed437155e1a2f0378710602848703c8a7f203f7ff5d77805bf8480aa6",
+  "config_sha256": "6056bda36c2cb49cf1afd9cd8299ffa897f644a3fb2233e6bb0d3106f734b6df",
+  "rule_version": "1.1.0",
+  "sales_field": "Order Item Total",
+  "python_version": "3.12.14",
+  "tables": {
+    "dim_product": {
+      "rows": 118,
+      "sha256": "4f2d81079e6257f82028e7b948e2453f44353bcc6ff04690a53d26cf127f8645"
+    },
+    "dim_customer": {
+      "rows": 20652,
+      "sha256": "ca66d4f5ac30e7cb6cd8c5ecdce7773f4f2e3ae7b2999cc9f2e038fe80df8826"
+    },
+    "dim_date": {
+      "rows": 1127,
+      "sha256": "cee0adcb10b32681980e91e7dd37802e558083d17aca2b1ece375870be65b0a0"
+    },
+    "dim_geography": {
+      "rows": 1117,
+      "sha256": "4d91379683ccda0b99918e72bb4e077b2add19bf6e761e48cb4fd1070a0890c2"
+    },
+    "dim_shipping": {
+      "rows": 4,
+      "sha256": "46e5335f11cb6d7f7dc5fe14792002424e65d7657257bfca8efa6ae3b9c4e662"
+    },
+    "fact_orders": {
+      "rows": 65752,
+      "sha256": "3ac937652cb4cce9a513684b06fb3c580715fa6f158cb018c7a22e7e3f7d1298"
+    },
+    "fact_order_items": {
+      "rows": 180519,
+      "sha256": "fa711d4e50ebbf769d5e10654c8a9b6a9f55d9affdb76a3d25ee92244a88d263"
+    }
+  }
+}

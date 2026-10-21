@@ -1,0 +1,31 @@
+{
+  "name": "DataCoTheme.json",
+  "dataColors": [
+    "#245B9B",
+    "#16877F",
+    "#DF8C35",
+    "#7D8FB3",
+    "#71B7AE",
+    "#D9B57A"
+  ],
+  "background": "#F0F4F8",
+  "foreground": "#112B46",
+  "tableAccent": "#16877F",
+  "textClasses": {
+    "label": {
+      "fontFace": "Microsoft YaHei",
+      "fontSize": 10,
+      "color": "#112B46"
+    },
+    "title": {
+      "fontFace": "Microsoft YaHei",
+      "fontSize": 12,
+      "color": "#112B46"
+    },
+    "callout": {
+      "fontFace": "Microsoft YaHei",
+      "fontSize": 24,
+      "color": "#112B46"
+    }
+  }
+}

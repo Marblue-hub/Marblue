@@ -1,0 +1,208 @@
+filter_kind,filter_value,metric,expected_value
+shipping_mode,First Class,orders,10079.0
+shipping_mode,First Class,canceled_orders,477.0
+shipping_mode,First Class,eligible_orders,9602.0
+shipping_mode,First Class,over_schedule_orders,9602.0
+shipping_mode,First Class,within_schedule_orders,0.0
+shipping_mode,First Class,avg_positive_over_days,1.0
+shipping_mode,First Class,order_items,27814.0
+shipping_mode,First Class,sales,5100451.072543172
+shipping_mode,First Class,gross_sales,5674369.758202553
+shipping_mode,First Class,reported_profit,643121.920739061
+shipping_mode,First Class,recorded_discount,573925.210388667
+shipping_mode,First Class,negative_profit_items,5102.0
+shipping_mode,First Class,eligible_items,26513.0
+shipping_mode,First Class,over_schedule_items,26513.0
+shipping_mode,First Class,canceled_sales_exposure,239501.32280701
+shipping_mode,First Class,over_schedule_sales_exposure,4860949.749736162
+shipping_mode,First Class,unknown_timing_orders,0.0
+shipping_mode,First Class,reported_profit_margin,0.1260911851897031
+shipping_mode,First Class,average_order_value,506.04733332108066
+shipping_mode,First Class,canceled_order_rate,0.047326123623375335
+shipping_mode,First Class,over_schedule_order_rate,1.0
+shipping_mode,First Class,over_schedule_item_rate,1.0
+shipping_mode,First Class,negative_profit_item_rate,0.18343280362407421
+shipping_mode,Same Day,orders,3571.0
+shipping_mode,Same Day,canceled_orders,164.0
+shipping_mode,Same Day,eligible_orders,3407.0
+shipping_mode,Same Day,over_schedule_orders,1648.0
+shipping_mode,Same Day,within_schedule_orders,1759.0
+shipping_mode,Same Day,avg_positive_over_days,1.0
+shipping_mode,Same Day,order_items,9737.0
+shipping_mode,Same Day,sales,1745201.527863337
+shipping_mode,Same Day,gross_sales,1942528.557009085
+shipping_mode,Same Day,reported_profit,203018.430241898
+shipping_mode,Same Day,recorded_discount,197329.59016186598
+shipping_mode,Same Day,negative_profit_items,1835.0
+shipping_mode,Same Day,eligible_items,9293.0
+shipping_mode,Same Day,over_schedule_items,4454.0
+shipping_mode,Same Day,canceled_sales_exposure,78490.76076725998
+shipping_mode,Same Day,over_schedule_sales_exposure,787236.728288358
+shipping_mode,Same Day,unknown_timing_orders,0.0
+shipping_mode,Same Day,reported_profit_margin,0.11632950521791885
+shipping_mode,Same Day,average_order_value,488.71507361056763
+shipping_mode,Same Day,canceled_order_rate,0.04592551106132736
+shipping_mode,Same Day,over_schedule_order_rate,0.48371000880540066
+shipping_mode,Same Day,over_schedule_item_rate,0.47928548369740664
+shipping_mode,Same Day,negative_profit_item_rate,0.18845640340967443
+shipping_mode,Second Class,orders,12778.0
+shipping_mode,Second Class,canceled_orders,522.0
+shipping_mode,Second Class,eligible_orders,12256.0
+shipping_mode,Second Class,over_schedule_orders,9803.0
+shipping_mode,Second Class,within_schedule_orders,2453.0
+shipping_mode,Second Class,avg_positive_over_days,2.5041313883505047
+shipping_mode,Second Class,order_items,35216.0
+shipping_mode,Second Class,sales,6416528.535880441
+shipping_mode,Second Class,gross_sales,7145444.818358916
+shipping_mode,Second Class,reported_profit,750308.1702654329
+shipping_mode,Second Class,recorded_discount,728925.330432832
+shipping_mode,Second Class,negative_profit_items,6529.0
+shipping_mode,Second Class,eligible_items,33806.0
+shipping_mode,Second Class,over_schedule_items,26987.0
+shipping_mode,Second Class,canceled_sales_exposure,255897.61219281002
+shipping_mode,Second Class,over_schedule_sales_exposure,4918062.80083188
+shipping_mode,Second Class,unknown_timing_orders,0.0
+shipping_mode,Second Class,reported_profit_margin,0.11693366063437599
+shipping_mode,Second Class,average_order_value,502.15436968856164
+shipping_mode,Second Class,canceled_order_rate,0.04085146345280952
+shipping_mode,Second Class,over_schedule_order_rate,0.799853133159269
+shipping_mode,Second Class,over_schedule_item_rate,0.7982902443353251
+shipping_mode,Second Class,negative_profit_item_rate,0.18539868241708315
+shipping_mode,Standard Class,orders,39324.0
+shipping_mode,Standard Class,canceled_orders,1692.0
+shipping_mode,Standard Class,eligible_orders,37632.0
+shipping_mode,Standard Class,over_schedule_orders,14995.0
+shipping_mode,Standard Class,within_schedule_orders,22637.0
+shipping_mode,Standard Class,avg_positive_over_days,1.5026342114038012
+shipping_mode,Standard Class,order_items,107752.0
+shipping_mode,Standard Class,sales,19792221.243929666
+shipping_mode,Standard Class,gross_sales,22022391.879809294
+shipping_mode,Standard Class,reported_profit,2370454.4528039647
+shipping_mode,Standard Class,recorded_discount,2230198.271609204
+shipping_mode,Standard Class,negative_profit_items,20318.0
+shipping_mode,Standard Class,eligible_items,103153.0
+shipping_mode,Standard Class,over_schedule_items,41023.0
+shipping_mode,Standard Class,canceled_sales_exposure,835847.6085054909
+shipping_mode,Standard Class,over_schedule_sales_exposure,7516306.017399132
+shipping_mode,Standard Class,unknown_timing_orders,0.0
+shipping_mode,Standard Class,reported_profit_margin,0.11976697428698108
+shipping_mode,Standard Class,average_order_value,503.31149536999453
+shipping_mode,Standard Class,canceled_order_rate,0.04302715898687824
+shipping_mode,Standard Class,over_schedule_order_rate,0.3984640731292517
+shipping_mode,Standard Class,over_schedule_item_rate,0.39769080879858076
+shipping_mode,Standard Class,negative_profit_item_rate,0.18856262528769768
+product_id,19,orders,63.0
+product_id,19,canceled_orders,1.0
+product_id,19,eligible_orders,62.0
+product_id,19,over_schedule_orders,37.0
+product_id,19,within_schedule_orders,25.0
+product_id,19,avg_positive_over_days,1.837837837837838
+product_id,19,order_items,64.0
+product_id,19,sales,7256.879884560001
+product_id,19,gross_sales,7999.359865600001
+product_id,19,reported_profit,602.3799734620002
+product_id,19,recorded_discount,742.4799995440001
+product_id,19,negative_profit_items,11.0
+product_id,19,eligible_items,63.0
+product_id,19,over_schedule_items,38.0
+product_id,19,canceled_sales_exposure,108.7399979
+product_id,19,over_schedule_sales_exposure,23433.450078350004
+product_id,19,unknown_timing_orders,0.0
+product_id,19,reported_profit_margin,0.08300812236725118
+product_id,19,average_order_value,115.18856959619049
+product_id,19,canceled_order_rate,0.015873015873015872
+product_id,19,over_schedule_order_rate,0.5967741935483871
+product_id,19,over_schedule_item_rate,0.6031746031746031
+product_id,19,negative_profit_item_rate,0.171875
+product_id,24,orders,74.0
+product_id,24,canceled_orders,1.0
+product_id,24,eligible_orders,73.0
+product_id,24,over_schedule_orders,37.0
+product_id,24,within_schedule_orders,36.0
+product_id,24,avg_positive_over_days,1.837837837837838
+product_id,24,order_items,74.0
+product_id,24,sales,16653.06985199
+product_id,24,gross_sales,18477.6899717
+product_id,24,reported_profit,3299.5699799850004
+product_id,24,recorded_discount,1824.6400066380002
+product_id,24,negative_profit_items,13.0
+product_id,24,eligible_items,73.0
+product_id,24,over_schedule_items,37.0
+product_id,24,canceled_sales_exposure,79.19000244
+product_id,24,over_schedule_sales_exposure,27595.540050999996
+product_id,24,unknown_timing_orders,0.0
+product_id,24,reported_profit_margin,0.19813583977675503
+product_id,24,average_order_value,225.04148448635135
+product_id,24,canceled_order_rate,0.013513513513513514
+product_id,24,over_schedule_order_rate,0.5068493150684932
+product_id,24,over_schedule_item_rate,0.5068493150684932
+product_id,24,negative_profit_item_rate,0.17567567567567569
+product_id,35,orders,65.0
+product_id,35,canceled_orders,3.0
+product_id,35,eligible_orders,62.0
+product_id,35,over_schedule_orders,36.0
+product_id,35,within_schedule_orders,26.0
+product_id,35,avg_positive_over_days,1.5833333333333333
+product_id,35,order_items,65.0
+product_id,35,sales,9386.5499722
+product_id,35,gross_sales,10399.350357500001
+product_id,35,reported_profit,1642.7299991240002
+product_id,35,recorded_discount,1012.800001032
+product_id,35,negative_profit_items,10.0
+product_id,35,eligible_items,62.0
+product_id,35,over_schedule_items,36.0
+product_id,35,canceled_sales_exposure,452.769989
+product_id,35,over_schedule_sales_exposure,22321.20011496
+product_id,35,unknown_timing_orders,0.0
+product_id,35,reported_profit_margin,0.1750089227660054
+product_id,35,average_order_value,144.40846111076922
+product_id,35,canceled_order_rate,0.046153846153846156
+product_id,35,over_schedule_order_rate,0.5806451612903226
+product_id,35,over_schedule_item_rate,0.5806451612903226
+product_id,35,negative_profit_item_rate,0.15384615384615385
+product_id,37,orders,262.0
+product_id,37,canceled_orders,11.0
+product_id,37,eligible_orders,251.0
+product_id,37,over_schedule_orders,155.0
+product_id,37,within_schedule_orders,96.0
+product_id,37,avg_positive_over_days,1.5935483870967742
+product_id,37,order_items,262.0
+product_id,37,sales,24626.510212520003
+product_id,37,gross_sales,27327.19054016
+product_id,37,reported_profit,2906.330036917
+product_id,37,recorded_discount,2700.720005055
+product_id,37,negative_profit_items,42.0
+product_id,37,eligible_items,251.0
+product_id,37,over_schedule_items,155.0
+product_id,37,canceled_sales_exposure,1290.26000582
+product_id,37,over_schedule_sales_exposure,83876.77075294
+product_id,37,unknown_timing_orders,0.0
+product_id,37,reported_profit_margin,0.11801631704355071
+product_id,37,average_order_value,93.99431378824428
+product_id,37,canceled_order_rate,0.04198473282442748
+product_id,37,over_schedule_order_rate,0.6175298804780877
+product_id,37,over_schedule_item_rate,0.6175298804780877
+product_id,37,negative_profit_item_rate,0.16030534351145037
+product_id,44,orders,303.0
+product_id,44,canceled_orders,11.0
+product_id,44,eligible_orders,292.0
+product_id,44,over_schedule_orders,157.0
+product_id,44,within_schedule_orders,135.0
+product_id,44,avg_positive_over_days,1.7707006369426752
+product_id,44,order_items,305.0
+product_id,44,sales,50354.21066777
+product_id,44,gross_sales,56330.61164488
+product_id,44,reported_profit,8213.070031392
+product_id,44,recorded_discount,5976.470063899001
+product_id,44,negative_profit_items,54.0
+product_id,44,eligible_items,294.0
+product_id,44,over_schedule_items,158.0
+product_id,44,canceled_sales_exposure,1455.95000855
+product_id,44,over_schedule_sales_exposure,102793.671154392
+product_id,44,unknown_timing_orders,0.0
+product_id,44,reported_profit_margin,0.16310592346647396
+product_id,44,average_order_value,166.1855137550165
+product_id,44,canceled_order_rate,0.036303630363036306
+product_id,44,over_schedule_order_rate,0.5376712328767124
+product_id,44,over_schedule_item_rate,0.5374149659863946
+product_id,44,negative_profit_item_rate,0.17704918032786884

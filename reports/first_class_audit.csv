@@ -1,0 +1,10 @@
+shipping_mode,planned_days,actual_days,delivery_status,order_status,orders,eligible_orders,over_schedule_orders,sales,shipping_elapsed_matches_actual_days,interpretation
+First Class,1.0,2.0,Late delivery,CLOSED,1120,1120,1120,553635.045737926,1120,requires_source_definition_review
+First Class,1.0,2.0,Late delivery,COMPLETE,3377,3377,3377,1704226.237154985,3377,requires_source_definition_review
+First Class,1.0,2.0,Late delivery,ON_HOLD,544,544,544,259748.21258597,544,requires_source_definition_review
+First Class,1.0,2.0,Late delivery,PAYMENT_REVIEW,114,114,114,58641.720531282,114,requires_source_definition_review
+First Class,1.0,2.0,Late delivery,PENDING,1129,1129,1129,571019.795692121,1129,requires_source_definition_review
+First Class,1.0,2.0,Late delivery,PENDING_PAYMENT,2122,2122,2122,1091511.241345035,2122,requires_source_definition_review
+First Class,1.0,2.0,Late delivery,PROCESSING,1196,1196,1196,622167.496688843,1196,requires_source_definition_review
+First Class,1.0,2.0,Shipping canceled,CANCELED,224,0,0,109465.40122739,224,requires_source_definition_review
+First Class,1.0,2.0,Shipping canceled,SUSPECTED_FRAUD,253,0,0,130035.92157962,253,requires_source_definition_review

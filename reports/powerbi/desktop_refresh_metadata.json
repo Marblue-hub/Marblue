@@ -1,0 +1,72 @@
+{
+    "catalog":  "8e0f3d20-4a68-4541-a7f0-6b0d0bda5fc4",
+    "port":  57246,
+    "queried_at_utc":  "2026-10-21T07:27:29.7599282Z",
+    "queries":  [
+                    {
+                        "id":  "partition_refresh",
+                        "rows":  [
+                                     {
+                                         "Name":  "dim_product",
+                                         "RefreshedTime":  "2026-10-21T07:08:33.2900000",
+                                         "State":  1
+                                     },
+                                     {
+                                         "Name":  "dim_customer",
+                                         "RefreshedTime":  "2026-10-21T07:08:33.4066670",
+                                         "State":  1
+                                     },
+                                     {
+                                         "Name":  "dim_date",
+                                         "RefreshedTime":  "2026-10-21T07:08:33.3233330",
+                                         "State":  1
+                                     },
+                                     {
+                                         "Name":  "dim_geography",
+                                         "RefreshedTime":  "2026-10-21T07:08:33.2033330",
+                                         "State":  1
+                                     },
+                                     {
+                                         "Name":  "dim_shipping",
+                                         "RefreshedTime":  "2026-10-21T07:08:33.3133330",
+                                         "State":  1
+                                     },
+                                     {
+                                         "Name":  "fact_orders",
+                                         "RefreshedTime":  "2026-10-21T07:08:35.9233330",
+                                         "State":  1
+                                     },
+                                     {
+                                         "Name":  "fact_order_items",
+                                         "RefreshedTime":  "2026-10-21T07:08:36.7100000",
+                                         "State":  1
+                                     },
+                                     {
+                                         "Name":  "build_metadata",
+                                         "RefreshedTime":  "2026-10-21T07:08:33.2900000",
+                                         "State":  1
+                                     },
+                                     {
+                                         "Name":  "KPI",
+                                         "RefreshedTime":  "2026-10-21T07:08:32.9800000",
+                                         "State":  1
+                                     },
+                                     {
+                                         "Name":  "DateTableTemplate_d643cb2a-0a5a-4abb-95ee-58ef74b7ade7",
+                                         "RefreshedTime":  "2026-10-21T07:08:37.6033330",
+                                         "State":  1
+                                     },
+                                     {
+                                         "Name":  "LocalDateTable_125288bb-33c4-45e4-99b7-c1112ca5e81f",
+                                         "RefreshedTime":  "2026-10-21T07:08:37.6133330",
+                                         "State":  1
+                                     },
+                                     {
+                                         "Name":  "LocalDateTable_5f490851-e64f-49c0-82f5-38ceef9357c6",
+                                         "RefreshedTime":  "2026-10-21T07:08:37.6166670",
+                                         "State":  1
+                                     }
+                                 ]
+                    }
+                ]
+}

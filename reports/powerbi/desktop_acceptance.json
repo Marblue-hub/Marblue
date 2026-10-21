@@ -1,0 +1,2841 @@
+{
+  "verified_at_utc": "2026-10-21T07:15:20.523394+00:00",
+  "engine": "Power BI Desktop Analysis Services / actual DAX",
+  "desktop_pid": 30556,
+  "catalog": "8e0f3d20-4a68-4541-a7f0-6b0d0bda5fc4",
+  "checks": 404,
+  "passed": 404,
+  "failed": 0,
+  "full_kpis": 24,
+  "filter_checks": 207,
+  "checks_detail": [
+    {
+      "case": "full",
+      "metric": "orders",
+      "expected": 65752.0,
+      "actual": 65752,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "canceled_orders",
+      "expected": 2855.0,
+      "actual": 2855,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "eligible_orders",
+      "expected": 62897.0,
+      "actual": 62897,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "over_schedule_orders",
+      "expected": 36048.0,
+      "actual": 36048,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "within_schedule_orders",
+      "expected": 26849.0,
+      "actual": 26849,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "conflict_orders",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "avg_positive_over_days",
+      "expected": 1.61812028406569,
+      "actual": 1.61812028406569,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "order_items",
+      "expected": 180519.0,
+      "actual": 180519,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "sales",
+      "expected": 33054402.380216613,
+      "actual": 33054402.38021665,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "gross_sales",
+      "expected": 36784735.01337984,
+      "actual": 36784735.01337985,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "reported_profit",
+      "expected": 3966902.974050357,
+      "actual": 3966902.9740503547,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "recorded_discount",
+      "expected": 3730378.4025925687,
+      "actual": 3730378.402592572,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "negative_profit_items",
+      "expected": 33784.0,
+      "actual": 33784,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "eligible_items",
+      "expected": 172765.0,
+      "actual": 172765,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "over_schedule_items",
+      "expected": 98977.0,
+      "actual": 98977,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "canceled_sales_exposure",
+      "expected": 1409737.304272571,
+      "actual": 1409737.304272572,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "over_schedule_sales_exposure",
+      "expected": 18082555.296255536,
+      "actual": 18082555.296255466,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "unknown_timing_orders",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "reported_profit_margin",
+      "expected": 0.1200113355074478,
+      "actual": 0.1200113355074476,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "average_order_value",
+      "expected": 502.71326165313013,
+      "actual": 502.7132616531307,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "canceled_order_rate",
+      "expected": 0.04342073244920307,
+      "actual": 0.04342073244920307,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "over_schedule_order_rate",
+      "expected": 0.5731274941571141,
+      "actual": 0.5731274941571141,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "over_schedule_item_rate",
+      "expected": 0.5728996035076549,
+      "actual": 0.5728996035076549,
+      "passed": true
+    },
+    {
+      "case": "full",
+      "metric": "negative_profit_item_rate",
+      "expected": 0.18714927514555255,
+      "actual": 0.18714927514555255,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "orders",
+      "expected": 10079.0,
+      "actual": 10079,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "canceled_orders",
+      "expected": 477.0,
+      "actual": 477,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "eligible_orders",
+      "expected": 9602.0,
+      "actual": 9602,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "over_schedule_orders",
+      "expected": 9602.0,
+      "actual": 9602,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "within_schedule_orders",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "avg_positive_over_days",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "order_items",
+      "expected": 27814.0,
+      "actual": 27814,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "sales",
+      "expected": 5100451.072543172,
+      "actual": 5100451.072543171,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "gross_sales",
+      "expected": 5674369.758202553,
+      "actual": 5674369.758202555,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "reported_profit",
+      "expected": 643121.920739061,
+      "actual": 643121.920739061,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "recorded_discount",
+      "expected": 573925.210388667,
+      "actual": 573925.2103886679,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "negative_profit_items",
+      "expected": 5102.0,
+      "actual": 5102,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "eligible_items",
+      "expected": 26513.0,
+      "actual": 26513,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "over_schedule_items",
+      "expected": 26513.0,
+      "actual": 26513,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "canceled_sales_exposure",
+      "expected": 239501.32280701,
+      "actual": 239501.32280701012,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "over_schedule_sales_exposure",
+      "expected": 4860949.749736162,
+      "actual": 4860949.749736152,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "unknown_timing_orders",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "reported_profit_margin",
+      "expected": 0.1260911851897031,
+      "actual": 0.12609118518970314,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "average_order_value",
+      "expected": 506.04733332108066,
+      "actual": 506.0473333210806,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "canceled_order_rate",
+      "expected": 0.047326123623375335,
+      "actual": 0.047326123623375335,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "over_schedule_order_rate",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "over_schedule_item_rate",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:First Class",
+      "metric": "negative_profit_item_rate",
+      "expected": 0.18343280362407421,
+      "actual": 0.18343280362407421,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "orders",
+      "expected": 3571.0,
+      "actual": 3571,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "canceled_orders",
+      "expected": 164.0,
+      "actual": 164,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "eligible_orders",
+      "expected": 3407.0,
+      "actual": 3407,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "over_schedule_orders",
+      "expected": 1648.0,
+      "actual": 1648,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "within_schedule_orders",
+      "expected": 1759.0,
+      "actual": 1759,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "avg_positive_over_days",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "order_items",
+      "expected": 9737.0,
+      "actual": 9737,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "sales",
+      "expected": 1745201.527863337,
+      "actual": 1745201.5278633388,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "gross_sales",
+      "expected": 1942528.557009085,
+      "actual": 1942528.5570090872,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "reported_profit",
+      "expected": 203018.430241898,
+      "actual": 203018.43024189817,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "recorded_discount",
+      "expected": 197329.59016186598,
+      "actual": 197329.59016186593,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "negative_profit_items",
+      "expected": 1835.0,
+      "actual": 1835,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "eligible_items",
+      "expected": 9293.0,
+      "actual": 9293,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "over_schedule_items",
+      "expected": 4454.0,
+      "actual": 4454,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "canceled_sales_exposure",
+      "expected": 78490.76076725998,
+      "actual": 78490.76076726001,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "over_schedule_sales_exposure",
+      "expected": 787236.728288358,
+      "actual": 787236.7282883577,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "unknown_timing_orders",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "reported_profit_margin",
+      "expected": 0.11632950521791885,
+      "actual": 0.11632950521791882,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "average_order_value",
+      "expected": 488.71507361056763,
+      "actual": 488.71507361056814,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "canceled_order_rate",
+      "expected": 0.04592551106132736,
+      "actual": 0.04592551106132736,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "over_schedule_order_rate",
+      "expected": 0.48371000880540066,
+      "actual": 0.48371000880540066,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "over_schedule_item_rate",
+      "expected": 0.47928548369740664,
+      "actual": 0.47928548369740664,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Same Day",
+      "metric": "negative_profit_item_rate",
+      "expected": 0.18845640340967443,
+      "actual": 0.18845640340967443,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "orders",
+      "expected": 12778.0,
+      "actual": 12778,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "canceled_orders",
+      "expected": 522.0,
+      "actual": 522,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "eligible_orders",
+      "expected": 12256.0,
+      "actual": 12256,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "over_schedule_orders",
+      "expected": 9803.0,
+      "actual": 9803,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "within_schedule_orders",
+      "expected": 2453.0,
+      "actual": 2453,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "avg_positive_over_days",
+      "expected": 2.5041313883505047,
+      "actual": 2.5041313883505047,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "order_items",
+      "expected": 35216.0,
+      "actual": 35216,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "sales",
+      "expected": 6416528.535880441,
+      "actual": 6416528.535880438,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "gross_sales",
+      "expected": 7145444.818358916,
+      "actual": 7145444.818358914,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "reported_profit",
+      "expected": 750308.1702654329,
+      "actual": 750308.1702654331,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "recorded_discount",
+      "expected": 728925.330432832,
+      "actual": 728925.330432832,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "negative_profit_items",
+      "expected": 6529.0,
+      "actual": 6529,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "eligible_items",
+      "expected": 33806.0,
+      "actual": 33806,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "over_schedule_items",
+      "expected": 26987.0,
+      "actual": 26987,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "canceled_sales_exposure",
+      "expected": 255897.61219281002,
+      "actual": 255897.61219281028,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "over_schedule_sales_exposure",
+      "expected": 4918062.80083188,
+      "actual": 4918062.800831879,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "unknown_timing_orders",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "reported_profit_margin",
+      "expected": 0.11693366063437599,
+      "actual": 0.11693366063437607,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "average_order_value",
+      "expected": 502.15436968856164,
+      "actual": 502.1543696885614,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "canceled_order_rate",
+      "expected": 0.04085146345280952,
+      "actual": 0.04085146345280952,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "over_schedule_order_rate",
+      "expected": 0.799853133159269,
+      "actual": 0.799853133159269,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "over_schedule_item_rate",
+      "expected": 0.7982902443353251,
+      "actual": 0.7982902443353251,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Second Class",
+      "metric": "negative_profit_item_rate",
+      "expected": 0.18539868241708315,
+      "actual": 0.18539868241708315,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "orders",
+      "expected": 39324.0,
+      "actual": 39324,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "canceled_orders",
+      "expected": 1692.0,
+      "actual": 1692,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "eligible_orders",
+      "expected": 37632.0,
+      "actual": 37632,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "over_schedule_orders",
+      "expected": 14995.0,
+      "actual": 14995,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "within_schedule_orders",
+      "expected": 22637.0,
+      "actual": 22637,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "avg_positive_over_days",
+      "expected": 1.5026342114038012,
+      "actual": 1.5026342114038012,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "order_items",
+      "expected": 107752.0,
+      "actual": 107752,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "sales",
+      "expected": 19792221.243929666,
+      "actual": 19792221.243929677,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "gross_sales",
+      "expected": 22022391.879809294,
+      "actual": 22022391.87980929,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "reported_profit",
+      "expected": 2370454.4528039647,
+      "actual": 2370454.452803971,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "recorded_discount",
+      "expected": 2230198.271609204,
+      "actual": 2230198.2716092025,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "negative_profit_items",
+      "expected": 20318.0,
+      "actual": 20318,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "eligible_items",
+      "expected": 103153.0,
+      "actual": 103153,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "over_schedule_items",
+      "expected": 41023.0,
+      "actual": 41023,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "canceled_sales_exposure",
+      "expected": 835847.6085054909,
+      "actual": 835847.6085054915,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "over_schedule_sales_exposure",
+      "expected": 7516306.017399132,
+      "actual": 7516306.017399111,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "unknown_timing_orders",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "reported_profit_margin",
+      "expected": 0.11976697428698108,
+      "actual": 0.11976697428698131,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "average_order_value",
+      "expected": 503.31149536999453,
+      "actual": 503.3114953699948,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "canceled_order_rate",
+      "expected": 0.04302715898687824,
+      "actual": 0.04302715898687824,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "over_schedule_order_rate",
+      "expected": 0.3984640731292517,
+      "actual": 0.3984640731292517,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "over_schedule_item_rate",
+      "expected": 0.39769080879858076,
+      "actual": 0.39769080879858076,
+      "passed": true
+    },
+    {
+      "case": "shipping_mode:Standard Class",
+      "metric": "negative_profit_item_rate",
+      "expected": 0.18856262528769768,
+      "actual": 0.18856262528769768,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "orders",
+      "expected": 63.0,
+      "actual": 63,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "canceled_orders",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "eligible_orders",
+      "expected": 62.0,
+      "actual": 62,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "over_schedule_orders",
+      "expected": 37.0,
+      "actual": 37,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "within_schedule_orders",
+      "expected": 25.0,
+      "actual": 25,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "avg_positive_over_days",
+      "expected": 1.837837837837838,
+      "actual": 1.837837837837838,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "order_items",
+      "expected": 64.0,
+      "actual": 64,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "sales",
+      "expected": 7256.879884560001,
+      "actual": 7256.879884560004,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "gross_sales",
+      "expected": 7999.359865600001,
+      "actual": 7999.359865600006,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "reported_profit",
+      "expected": 602.3799734620002,
+      "actual": 602.3799734620001,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "recorded_discount",
+      "expected": 742.4799995440001,
+      "actual": 742.4799995440001,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "negative_profit_items",
+      "expected": 11.0,
+      "actual": 11,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "eligible_items",
+      "expected": 63.0,
+      "actual": 63,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "over_schedule_items",
+      "expected": 38.0,
+      "actual": 38,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "canceled_sales_exposure",
+      "expected": 108.7399979,
+      "actual": 108.7399979,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "over_schedule_sales_exposure",
+      "expected": 23433.450078350004,
+      "actual": 23433.450078349997,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "unknown_timing_orders",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "reported_profit_margin",
+      "expected": 0.08300812236725118,
+      "actual": 0.08300812236725114,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "average_order_value",
+      "expected": 115.18856959619049,
+      "actual": 115.18856959619055,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "canceled_order_rate",
+      "expected": 0.015873015873015872,
+      "actual": 0.015873015873015872,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "over_schedule_order_rate",
+      "expected": 0.5967741935483871,
+      "actual": 0.5967741935483871,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "over_schedule_item_rate",
+      "expected": 0.6031746031746031,
+      "actual": 0.6031746031746031,
+      "passed": true
+    },
+    {
+      "case": "product_id:19",
+      "metric": "negative_profit_item_rate",
+      "expected": 0.171875,
+      "actual": 0.171875,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "orders",
+      "expected": 74.0,
+      "actual": 74,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "canceled_orders",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "eligible_orders",
+      "expected": 73.0,
+      "actual": 73,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "over_schedule_orders",
+      "expected": 37.0,
+      "actual": 37,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "within_schedule_orders",
+      "expected": 36.0,
+      "actual": 36,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "avg_positive_over_days",
+      "expected": 1.837837837837838,
+      "actual": 1.837837837837838,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "order_items",
+      "expected": 74.0,
+      "actual": 74,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "sales",
+      "expected": 16653.06985199,
+      "actual": 16653.06985199,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "gross_sales",
+      "expected": 18477.6899717,
+      "actual": 18477.689971699998,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "reported_profit",
+      "expected": 3299.5699799850004,
+      "actual": 3299.569979985,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "recorded_discount",
+      "expected": 1824.6400066380002,
+      "actual": 1824.640006638,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "negative_profit_items",
+      "expected": 13.0,
+      "actual": 13,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "eligible_items",
+      "expected": 73.0,
+      "actual": 73,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "over_schedule_items",
+      "expected": 37.0,
+      "actual": 37,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "canceled_sales_exposure",
+      "expected": 79.19000244,
+      "actual": 79.19000244,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "over_schedule_sales_exposure",
+      "expected": 27595.540050999996,
+      "actual": 27595.540051000004,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "unknown_timing_orders",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "reported_profit_margin",
+      "expected": 0.19813583977675503,
+      "actual": 0.198135839776755,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "average_order_value",
+      "expected": 225.04148448635135,
+      "actual": 225.04148448635135,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "canceled_order_rate",
+      "expected": 0.013513513513513514,
+      "actual": 0.013513513513513514,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "over_schedule_order_rate",
+      "expected": 0.5068493150684932,
+      "actual": 0.5068493150684932,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "over_schedule_item_rate",
+      "expected": 0.5068493150684932,
+      "actual": 0.5068493150684932,
+      "passed": true
+    },
+    {
+      "case": "product_id:24",
+      "metric": "negative_profit_item_rate",
+      "expected": 0.17567567567567569,
+      "actual": 0.17567567567567569,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "orders",
+      "expected": 65.0,
+      "actual": 65,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "canceled_orders",
+      "expected": 3.0,
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "eligible_orders",
+      "expected": 62.0,
+      "actual": 62,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "over_schedule_orders",
+      "expected": 36.0,
+      "actual": 36,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "within_schedule_orders",
+      "expected": 26.0,
+      "actual": 26,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "avg_positive_over_days",
+      "expected": 1.5833333333333333,
+      "actual": 1.5833333333333333,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "order_items",
+      "expected": 65.0,
+      "actual": 65,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "sales",
+      "expected": 9386.5499722,
+      "actual": 9386.549972199999,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "gross_sales",
+      "expected": 10399.350357500001,
+      "actual": 10399.350357499992,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "reported_profit",
+      "expected": 1642.7299991240002,
+      "actual": 1642.7299991240004,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "recorded_discount",
+      "expected": 1012.800001032,
+      "actual": 1012.800001032,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "negative_profit_items",
+      "expected": 10.0,
+      "actual": 10,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "eligible_items",
+      "expected": 62.0,
+      "actual": 62,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "over_schedule_items",
+      "expected": 36.0,
+      "actual": 36,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "canceled_sales_exposure",
+      "expected": 452.769989,
+      "actual": 452.769989,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "over_schedule_sales_exposure",
+      "expected": 22321.20011496,
+      "actual": 22321.200114959996,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "unknown_timing_orders",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "reported_profit_margin",
+      "expected": 0.1750089227660054,
+      "actual": 0.17500892276600546,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "average_order_value",
+      "expected": 144.40846111076922,
+      "actual": 144.4084611107692,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "canceled_order_rate",
+      "expected": 0.046153846153846156,
+      "actual": 0.046153846153846156,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "over_schedule_order_rate",
+      "expected": 0.5806451612903226,
+      "actual": 0.5806451612903226,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "over_schedule_item_rate",
+      "expected": 0.5806451612903226,
+      "actual": 0.5806451612903226,
+      "passed": true
+    },
+    {
+      "case": "product_id:35",
+      "metric": "negative_profit_item_rate",
+      "expected": 0.15384615384615385,
+      "actual": 0.15384615384615385,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "orders",
+      "expected": 262.0,
+      "actual": 262,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "canceled_orders",
+      "expected": 11.0,
+      "actual": 11,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "eligible_orders",
+      "expected": 251.0,
+      "actual": 251,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "over_schedule_orders",
+      "expected": 155.0,
+      "actual": 155,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "within_schedule_orders",
+      "expected": 96.0,
+      "actual": 96,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "avg_positive_over_days",
+      "expected": 1.5935483870967742,
+      "actual": 1.5935483870967742,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "order_items",
+      "expected": 262.0,
+      "actual": 262,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "sales",
+      "expected": 24626.510212520003,
+      "actual": 24626.510212520006,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "gross_sales",
+      "expected": 27327.19054016,
+      "actual": 27327.19054016,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "reported_profit",
+      "expected": 2906.330036917,
+      "actual": 2906.330036917,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "recorded_discount",
+      "expected": 2700.720005055,
+      "actual": 2700.720005055001,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "negative_profit_items",
+      "expected": 42.0,
+      "actual": 42,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "eligible_items",
+      "expected": 251.0,
+      "actual": 251,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "over_schedule_items",
+      "expected": 155.0,
+      "actual": 155,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "canceled_sales_exposure",
+      "expected": 1290.26000582,
+      "actual": 1290.26000582,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "over_schedule_sales_exposure",
+      "expected": 83876.77075294,
+      "actual": 83876.77075294002,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "unknown_timing_orders",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "reported_profit_margin",
+      "expected": 0.11801631704355071,
+      "actual": 0.1180163170435507,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "average_order_value",
+      "expected": 93.99431378824428,
+      "actual": 93.9943137882443,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "canceled_order_rate",
+      "expected": 0.04198473282442748,
+      "actual": 0.04198473282442748,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "over_schedule_order_rate",
+      "expected": 0.6175298804780877,
+      "actual": 0.6175298804780877,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "over_schedule_item_rate",
+      "expected": 0.6175298804780877,
+      "actual": 0.6175298804780877,
+      "passed": true
+    },
+    {
+      "case": "product_id:37",
+      "metric": "negative_profit_item_rate",
+      "expected": 0.16030534351145037,
+      "actual": 0.16030534351145037,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "orders",
+      "expected": 303.0,
+      "actual": 303,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "canceled_orders",
+      "expected": 11.0,
+      "actual": 11,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "eligible_orders",
+      "expected": 292.0,
+      "actual": 292,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "over_schedule_orders",
+      "expected": 157.0,
+      "actual": 157,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "within_schedule_orders",
+      "expected": 135.0,
+      "actual": 135,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "avg_positive_over_days",
+      "expected": 1.7707006369426752,
+      "actual": 1.7707006369426752,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "order_items",
+      "expected": 305.0,
+      "actual": 305,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "sales",
+      "expected": 50354.21066777,
+      "actual": 50354.21066777001,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "gross_sales",
+      "expected": 56330.61164488,
+      "actual": 56330.611644879944,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "reported_profit",
+      "expected": 8213.070031392,
+      "actual": 8213.070031392,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "recorded_discount",
+      "expected": 5976.470063899001,
+      "actual": 5976.470063899001,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "negative_profit_items",
+      "expected": 54.0,
+      "actual": 54,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "eligible_items",
+      "expected": 294.0,
+      "actual": 294,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "over_schedule_items",
+      "expected": 158.0,
+      "actual": 158,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "canceled_sales_exposure",
+      "expected": 1455.95000855,
+      "actual": 1455.95000855,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "over_schedule_sales_exposure",
+      "expected": 102793.671154392,
+      "actual": 102793.671154392,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "unknown_timing_orders",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "reported_profit_margin",
+      "expected": 0.16310592346647396,
+      "actual": 0.16310592346647396,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "average_order_value",
+      "expected": 166.1855137550165,
+      "actual": 166.18551375501653,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "canceled_order_rate",
+      "expected": 0.036303630363036306,
+      "actual": 0.036303630363036306,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "over_schedule_order_rate",
+      "expected": 0.5376712328767124,
+      "actual": 0.5376712328767124,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "over_schedule_item_rate",
+      "expected": 0.5374149659863946,
+      "actual": 0.5374149659863946,
+      "passed": true
+    },
+    {
+      "case": "product_id:44",
+      "metric": "negative_profit_item_rate",
+      "expected": 0.17704918032786884,
+      "actual": 0.17704918032786884,
+      "passed": true
+    },
+    {
+      "case": "canceled_only",
+      "metric": "orders",
+      "expected": 2855,
+      "actual": 2855,
+      "passed": true
+    },
+    {
+      "case": "canceled_only",
+      "metric": "eligible_orders",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "canceled_only",
+      "metric": "over_schedule_orders",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "canceled_only",
+      "metric": "within_schedule_orders",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "canceled_only",
+      "metric": "over_schedule_order_rate",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "empty_selection",
+      "metric": "orders",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "empty_selection",
+      "metric": "eligible_orders",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "empty_selection",
+      "metric": "over_schedule_orders",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "empty_selection",
+      "metric": "within_schedule_orders",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "empty_selection",
+      "metric": "over_schedule_order_rate",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "empty_selection",
+      "metric": "order_items",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "case": "empty_selection",
+      "metric": "negative_profit_item_rate",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2015-01",
+      "metric": "sales",
+      "expected": 945382.1605344249,
+      "actual": 945382.1605344255,
+      "passed": true
+    },
+    {
+      "case": "2015-01",
+      "metric": "profit",
+      "expected": 111660.740131745,
+      "actual": 111660.74013174517,
+      "passed": true
+    },
+    {
+      "case": "2015-01",
+      "metric": "mom",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2015-01",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2015-02",
+      "metric": "sales",
+      "expected": 833012.429253123,
+      "actual": 833012.4292531259,
+      "passed": true
+    },
+    {
+      "case": "2015-02",
+      "metric": "profit",
+      "expected": 99140.660195881,
+      "actual": 99140.66019588127,
+      "passed": true
+    },
+    {
+      "case": "2015-02",
+      "metric": "mom",
+      "expected": -0.11886170056115641,
+      "actual": -0.1188617005611539,
+      "passed": true
+    },
+    {
+      "case": "2015-02",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2015-03",
+      "metric": "sales",
+      "expected": 944050.110472353,
+      "actual": 944050.110472353,
+      "passed": true
+    },
+    {
+      "case": "2015-03",
+      "metric": "profit",
+      "expected": 113778.210191127,
+      "actual": 113778.21019112713,
+      "passed": true
+    },
+    {
+      "case": "2015-03",
+      "metric": "mom",
+      "expected": 0.13329654795041423,
+      "actual": 0.13329654795041013,
+      "passed": true
+    },
+    {
+      "case": "2015-03",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2015-04",
+      "metric": "sales",
+      "expected": 912004.400261305,
+      "actual": 912004.4002613078,
+      "passed": true
+    },
+    {
+      "case": "2015-04",
+      "metric": "profit",
+      "expected": 108083.679956629,
+      "actual": 108083.6799566296,
+      "passed": true
+    },
+    {
+      "case": "2015-04",
+      "metric": "mom",
+      "expected": -0.03394492501570057,
+      "actual": -0.033944925015697534,
+      "passed": true
+    },
+    {
+      "case": "2015-04",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2015-05",
+      "metric": "sales",
+      "expected": 943939.76995613,
+      "actual": 943939.7699561303,
+      "passed": true
+    },
+    {
+      "case": "2015-05",
+      "metric": "profit",
+      "expected": 112147.900143277,
+      "actual": 112147.90014327725,
+      "passed": true
+    },
+    {
+      "case": "2015-05",
+      "metric": "mom",
+      "expected": 0.03501668378537959,
+      "actual": 0.03501668378537684,
+      "passed": true
+    },
+    {
+      "case": "2015-05",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2015-06",
+      "metric": "sales",
+      "expected": 920242.060275583,
+      "actual": 920242.0602755839,
+      "passed": true
+    },
+    {
+      "case": "2015-06",
+      "metric": "profit",
+      "expected": 110147.160313142,
+      "actual": 110147.16031314242,
+      "passed": true
+    },
+    {
+      "case": "2015-06",
+      "metric": "mom",
+      "expected": -0.025105107799037185,
+      "actual": -0.02510510779903656,
+      "passed": true
+    },
+    {
+      "case": "2015-06",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2015-07",
+      "metric": "sales",
+      "expected": 932936.790226654,
+      "actual": 932936.7902266548,
+      "passed": true
+    },
+    {
+      "case": "2015-07",
+      "metric": "profit",
+      "expected": 115624.059878668,
+      "actual": 115624.05987866835,
+      "passed": true
+    },
+    {
+      "case": "2015-07",
+      "metric": "mom",
+      "expected": 0.013794989926095624,
+      "actual": 0.013794989926095543,
+      "passed": true
+    },
+    {
+      "case": "2015-07",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2015-08",
+      "metric": "sales",
+      "expected": 925192.870535762,
+      "actual": 925192.8705357657,
+      "passed": true
+    },
+    {
+      "case": "2015-08",
+      "metric": "profit",
+      "expected": 117979.770301531,
+      "actual": 117979.77030153145,
+      "passed": true
+    },
+    {
+      "case": "2015-08",
+      "metric": "mom",
+      "expected": -0.008300583460762234,
+      "actual": -0.00830058346075937,
+      "passed": true
+    },
+    {
+      "case": "2015-08",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2015-09",
+      "metric": "sales",
+      "expected": 914522.370143404,
+      "actual": 914522.3701434069,
+      "passed": true
+    },
+    {
+      "case": "2015-09",
+      "metric": "profit",
+      "expected": 113467.940118142,
+      "actual": 113467.9401181424,
+      "passed": true
+    },
+    {
+      "case": "2015-09",
+      "metric": "mom",
+      "expected": -0.011533271312584747,
+      "actual": -0.01153327131258547,
+      "passed": true
+    },
+    {
+      "case": "2015-09",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2015-10",
+      "metric": "sales",
+      "expected": 943131.10021303,
+      "actual": 943131.1002130307,
+      "passed": true
+    },
+    {
+      "case": "2015-10",
+      "metric": "profit",
+      "expected": 101757.870039839,
+      "actual": 101757.87003983963,
+      "passed": true
+    },
+    {
+      "case": "2015-10",
+      "metric": "mom",
+      "expected": 0.03128270122593069,
+      "actual": 0.031282701225928064,
+      "passed": true
+    },
+    {
+      "case": "2015-10",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2015-11",
+      "metric": "sales",
+      "expected": 924602.570546607,
+      "actual": 924602.5705466104,
+      "passed": true
+    },
+    {
+      "case": "2015-11",
+      "metric": "profit",
+      "expected": 104427.360119529,
+      "actual": 104427.3601195296,
+      "passed": true
+    },
+    {
+      "case": "2015-11",
+      "metric": "mom",
+      "expected": -0.019645762569210024,
+      "actual": -0.019645762569207137,
+      "passed": true
+    },
+    {
+      "case": "2015-11",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2015-12",
+      "metric": "sales",
+      "expected": 950526.920552301,
+      "actual": 950526.9205523042,
+      "passed": true
+    },
+    {
+      "case": "2015-12",
+      "metric": "profit",
+      "expected": 110641.549880989,
+      "actual": 110641.54988098967,
+      "passed": true
+    },
+    {
+      "case": "2015-12",
+      "metric": "mom",
+      "expected": 0.028038371113729532,
+      "actual": 0.028038371113729206,
+      "passed": true
+    },
+    {
+      "case": "2015-12",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2016-01",
+      "metric": "sales",
+      "expected": 940283.630375412,
+      "actual": 940283.6303754129,
+      "passed": true
+    },
+    {
+      "case": "2016-01",
+      "metric": "profit",
+      "expected": 106780.950228697,
+      "actual": 106780.95022869715,
+      "passed": true
+    },
+    {
+      "case": "2016-01",
+      "metric": "mom",
+      "expected": -0.010776433529033791,
+      "actual": -0.010776433529036192,
+      "passed": true
+    },
+    {
+      "case": "2016-01",
+      "metric": "yoy",
+      "expected": -0.005393089029870013,
+      "actual": -0.0053930890298696165,
+      "passed": true
+    },
+    {
+      "case": "2016-02",
+      "metric": "sales",
+      "expected": 870116.749786724,
+      "actual": 870116.7497867254,
+      "passed": true
+    },
+    {
+      "case": "2016-02",
+      "metric": "profit",
+      "expected": 86809.490641663,
+      "actual": 86809.49064166288,
+      "passed": true
+    },
+    {
+      "case": "2016-02",
+      "metric": "mom",
+      "expected": -0.07462310128771843,
+      "actual": -0.07462310128771785,
+      "passed": true
+    },
+    {
+      "case": "2016-02",
+      "metric": "yoy",
+      "expected": 0.044542337221628925,
+      "actual": 0.04454233722162704,
+      "passed": true
+    },
+    {
+      "case": "2016-03",
+      "metric": "sales",
+      "expected": 921487.730559933,
+      "actual": 921487.7305599356,
+      "passed": true
+    },
+    {
+      "case": "2016-03",
+      "metric": "profit",
+      "expected": 101259.99024981,
+      "actual": 101259.99024981036,
+      "passed": true
+    },
+    {
+      "case": "2016-03",
+      "metric": "mom",
+      "expected": 0.0590391815647735,
+      "actual": 0.059039181564774765,
+      "passed": true
+    },
+    {
+      "case": "2016-03",
+      "metric": "yoy",
+      "expected": -0.02389955751515238,
+      "actual": -0.023899557515149532,
+      "passed": true
+    },
+    {
+      "case": "2016-04",
+      "metric": "sales",
+      "expected": 900492.919909295,
+      "actual": 900492.9199092984,
+      "passed": true
+    },
+    {
+      "case": "2016-04",
+      "metric": "profit",
+      "expected": 114976.619906938,
+      "actual": 114976.61990693808,
+      "passed": true
+    },
+    {
+      "case": "2016-04",
+      "metric": "mom",
+      "expected": -0.022783603030591237,
+      "actual": -0.022783603030590443,
+      "passed": true
+    },
+    {
+      "case": "2016-04",
+      "metric": "yoy",
+      "expected": -0.01262217632799989,
+      "actual": -0.012622176327999357,
+      "passed": true
+    },
+    {
+      "case": "2016-05",
+      "metric": "sales",
+      "expected": 924978.220743864,
+      "actual": 924978.2207438666,
+      "passed": true
+    },
+    {
+      "case": "2016-05",
+      "metric": "profit",
+      "expected": 110716.120111335,
+      "actual": 110716.12011133572,
+      "passed": true
+    },
+    {
+      "case": "2016-05",
+      "metric": "mom",
+      "expected": 0.02719099761165844,
+      "actual": 0.02719099761165763,
+      "passed": true
+    },
+    {
+      "case": "2016-05",
+      "metric": "yoy",
+      "expected": -0.02008766853116828,
+      "actual": -0.020087668531165823,
+      "passed": true
+    },
+    {
+      "case": "2016-06",
+      "metric": "sales",
+      "expected": 901448.010186072,
+      "actual": 901448.0101860749,
+      "passed": true
+    },
+    {
+      "case": "2016-06",
+      "metric": "profit",
+      "expected": 104196.070108119,
+      "actual": 104196.07010811912,
+      "passed": true
+    },
+    {
+      "case": "2016-06",
+      "metric": "mom",
+      "expected": -0.02543866442484355,
+      "actual": -0.025438664424843067,
+      "passed": true
+    },
+    {
+      "case": "2016-06",
+      "metric": "yoy",
+      "expected": -0.020422941854975396,
+      "actual": -0.020422941854973075,
+      "passed": true
+    },
+    {
+      "case": "2016-07",
+      "metric": "sales",
+      "expected": 939216.40059965,
+      "actual": 939216.4005996534,
+      "passed": true
+    },
+    {
+      "case": "2016-07",
+      "metric": "profit",
+      "expected": 119941.720183092,
+      "actual": 119941.72018309246,
+      "passed": true
+    },
+    {
+      "case": "2016-07",
+      "metric": "mom",
+      "expected": 0.04189746939014505,
+      "actual": 0.04189746939014519,
+      "passed": true
+    },
+    {
+      "case": "2016-07",
+      "metric": "yoy",
+      "expected": 0.006731013760825411,
+      "actual": 0.006731013760828089,
+      "passed": true
+    },
+    {
+      "case": "2016-08",
+      "metric": "sales",
+      "expected": 942408.940467754,
+      "actual": 942408.9404677561,
+      "passed": true
+    },
+    {
+      "case": "2016-08",
+      "metric": "profit",
+      "expected": 110729.540117032,
+      "actual": 110729.54011703275,
+      "passed": true
+    },
+    {
+      "case": "2016-08",
+      "metric": "mom",
+      "expected": 0.003399152597916455,
+      "actual": 0.003399152597915076,
+      "passed": true
+    },
+    {
+      "case": "2016-08",
+      "metric": "yoy",
+      "expected": 0.018608087546137853,
+      "actual": 0.018608087546136076,
+      "passed": true
+    },
+    {
+      "case": "2016-09",
+      "metric": "sales",
+      "expected": 900371.629961594,
+      "actual": 900371.6299615953,
+      "passed": true
+    },
+    {
+      "case": "2016-09",
+      "metric": "profit",
+      "expected": 123384.709977059,
+      "actual": 123384.70997705942,
+      "passed": true
+    },
+    {
+      "case": "2016-09",
+      "metric": "mom",
+      "expected": -0.04460623058742974,
+      "actual": -0.044606230587430545,
+      "passed": true
+    },
+    {
+      "case": "2016-09",
+      "metric": "yoy",
+      "expected": -0.015473366911288422,
+      "actual": -0.015473366911290132,
+      "passed": true
+    },
+    {
+      "case": "2016-10",
+      "metric": "sales",
+      "expected": 941882.280194664,
+      "actual": 941882.2801946639,
+      "passed": true
+    },
+    {
+      "case": "2016-10",
+      "metric": "profit",
+      "expected": 116781.970048187,
+      "actual": 116781.97004818713,
+      "passed": true
+    },
+    {
+      "case": "2016-10",
+      "metric": "mom",
+      "expected": 0.04610390737749115,
+      "actual": 0.04610390737748948,
+      "passed": true
+    },
+    {
+      "case": "2016-10",
+      "metric": "yoy",
+      "expected": -0.0013241213422862108,
+      "actual": -0.0013241213422871068,
+      "passed": true
+    },
+    {
+      "case": "2016-11",
+      "metric": "sales",
+      "expected": 941197.3609678299,
+      "actual": 941197.3609678312,
+      "passed": true
+    },
+    {
+      "case": "2016-11",
+      "metric": "profit",
+      "expected": 109539.199962309,
+      "actual": 109539.19996230895,
+      "passed": true
+    },
+    {
+      "case": "2016-11",
+      "metric": "mom",
+      "expected": -0.0007271813487058632,
+      "actual": -0.0007271813487044775,
+      "passed": true
+    },
+    {
+      "case": "2016-11",
+      "metric": "yoy",
+      "expected": 0.017948025400159162,
+      "actual": 0.017948025400156664,
+      "passed": true
+    },
+    {
+      "case": "2016-12",
+      "metric": "sales",
+      "expected": 932112.890084133,
+      "actual": 932112.8900841362,
+      "passed": true
+    },
+    {
+      "case": "2016-12",
+      "metric": "profit",
+      "expected": 105002.68993700799,
+      "actual": 105002.68993700841,
+      "passed": true
+    },
+    {
+      "case": "2016-12",
+      "metric": "mom",
+      "expected": -0.009652036077061887,
+      "actual": -0.009652036077059759,
+      "passed": true
+    },
+    {
+      "case": "2016-12",
+      "metric": "yoy",
+      "expected": -0.019372444977643122,
+      "actual": -0.01937244497764314,
+      "passed": true
+    },
+    {
+      "case": "2017-01",
+      "metric": "sales",
+      "expected": 925472.619840525,
+      "actual": 925472.6198405253,
+      "passed": true
+    },
+    {
+      "case": "2017-01",
+      "metric": "profit",
+      "expected": 114843.850276999,
+      "actual": 114843.85027699923,
+      "passed": true
+    },
+    {
+      "case": "2017-01",
+      "metric": "mom",
+      "expected": -0.007123890586910209,
+      "actual": -0.007123890586913202,
+      "passed": true
+    },
+    {
+      "case": "2017-01",
+      "metric": "yoy",
+      "expected": -0.015751641373330738,
+      "actual": -0.015751641373331345,
+      "passed": true
+    },
+    {
+      "case": "2017-02",
+      "metric": "sales",
+      "expected": 891924.289692601,
+      "actual": 891924.2896926021,
+      "passed": true
+    },
+    {
+      "case": "2017-02",
+      "metric": "profit",
+      "expected": 115111.070097214,
+      "actual": 115111.07009721469,
+      "passed": true
+    },
+    {
+      "case": "2017-02",
+      "metric": "mom",
+      "expected": -0.03624994346532362,
+      "actual": -0.03624994346532278,
+      "passed": true
+    },
+    {
+      "case": "2017-02",
+      "metric": "yoy",
+      "expected": 0.025062774519881703,
+      "actual": 0.025062774519881374,
+      "passed": true
+    },
+    {
+      "case": "2017-03",
+      "metric": "sales",
+      "expected": 942290.430651583,
+      "actual": 942290.4306515843,
+      "passed": true
+    },
+    {
+      "case": "2017-03",
+      "metric": "profit",
+      "expected": 118688.90021145,
+      "actual": 118688.90021145077,
+      "passed": true
+    },
+    {
+      "case": "2017-03",
+      "metric": "mom",
+      "expected": 0.05646907651359134,
+      "actual": 0.05646907651359136,
+      "passed": true
+    },
+    {
+      "case": "2017-03",
+      "metric": "yoy",
+      "expected": 0.0225751243361747,
+      "actual": 0.022575124336173327,
+      "passed": true
+    },
+    {
+      "case": "2017-04",
+      "metric": "sales",
+      "expected": 932318.20057466,
+      "actual": 932318.2005746596,
+      "passed": true
+    },
+    {
+      "case": "2017-04",
+      "metric": "profit",
+      "expected": 115961.060192667,
+      "actual": 115961.06019266733,
+      "passed": true
+    },
+    {
+      "case": "2017-04",
+      "metric": "mom",
+      "expected": -0.01058296863953856,
+      "actual": -0.010582968639540202,
+      "passed": true
+    },
+    {
+      "case": "2017-04",
+      "metric": "yoy",
+      "expected": 0.035342066507941805,
+      "actual": 0.035342066507937704,
+      "passed": true
+    },
+    {
+      "case": "2017-05",
+      "metric": "sales",
+      "expected": 993199.05077958,
+      "actual": 993199.0507795808,
+      "passed": true
+    },
+    {
+      "case": "2017-05",
+      "metric": "profit",
+      "expected": 115014.64001427,
+      "actual": 115014.64001427004,
+      "passed": true
+    },
+    {
+      "case": "2017-05",
+      "metric": "mom",
+      "expected": 0.06530050595107384,
+      "actual": 0.06530050595107499,
+      "passed": true
+    },
+    {
+      "case": "2017-05",
+      "metric": "yoy",
+      "expected": 0.07375398523529908,
+      "actual": 0.07375398523529675,
+      "passed": true
+    },
+    {
+      "case": "2017-06",
+      "metric": "sales",
+      "expected": 927445.97016683,
+      "actual": 927445.9701668273,
+      "passed": true
+    },
+    {
+      "case": "2017-06",
+      "metric": "profit",
+      "expected": 110399.290304686,
+      "actual": 110399.29030468671,
+      "passed": true
+    },
+    {
+      "case": "2017-06",
+      "metric": "mom",
+      "expected": -0.06620332607158574,
+      "actual": -0.06620332607158926,
+      "passed": true
+    },
+    {
+      "case": "2017-06",
+      "metric": "yoy",
+      "expected": 0.028840221163050295,
+      "actual": 0.028840221163043973,
+      "passed": true
+    },
+    {
+      "case": "2017-07",
+      "metric": "sales",
+      "expected": 992423.43050275,
+      "actual": 992423.4305027487,
+      "passed": true
+    },
+    {
+      "case": "2017-07",
+      "metric": "profit",
+      "expected": 113026.700038081,
+      "actual": 113026.70003808104,
+      "passed": true
+    },
+    {
+      "case": "2017-07",
+      "metric": "mom",
+      "expected": 0.07006064226494169,
+      "actual": 0.07006064226494331,
+      "passed": true
+    },
+    {
+      "case": "2017-07",
+      "metric": "yoy",
+      "expected": 0.05665044804278274,
+      "actual": 0.05665044804277768,
+      "passed": true
+    },
+    {
+      "case": "2017-08",
+      "metric": "sales",
+      "expected": 996507.88074761,
+      "actual": 996507.8807476083,
+      "passed": true
+    },
+    {
+      "case": "2017-08",
+      "metric": "profit",
+      "expected": 131501.160211149,
+      "actual": 131501.1602111493,
+      "passed": true
+    },
+    {
+      "case": "2017-08",
+      "metric": "mom",
+      "expected": 0.004115632621441545,
+      "actual": 0.00411563262144118,
+      "passed": true
+    },
+    {
+      "case": "2017-08",
+      "metric": "yoy",
+      "expected": 0.057404952305529555,
+      "actual": 0.057404952305525385,
+      "passed": true
+    },
+    {
+      "case": "2017-09",
+      "metric": "sales",
+      "expected": 1027111.72871293,
+      "actual": 1027111.7287129374,
+      "passed": true
+    },
+    {
+      "case": "2017-09",
+      "metric": "profit",
+      "expected": 122462.390152852,
+      "actual": 122462.39015285207,
+      "passed": true
+    },
+    {
+      "case": "2017-09",
+      "metric": "mom",
+      "expected": 0.030711094770630387,
+      "actual": 0.030711094770639644,
+      "passed": true
+    },
+    {
+      "case": "2017-09",
+      "metric": "yoy",
+      "expected": 0.14076420728265515,
+      "actual": 0.1407642072826619,
+      "passed": true
+    },
+    {
+      "case": "2017-10",
+      "metric": "sales",
+      "expected": 966081.409769428,
+      "actual": 966081.4097694316,
+      "passed": true
+    },
+    {
+      "case": "2017-10",
+      "metric": "profit",
+      "expected": 113447.169882532,
+      "actual": 113447.16988253214,
+      "passed": true
+    },
+    {
+      "case": "2017-10",
+      "metric": "mom",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2017-10",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2017-10",
+      "metric": "comparison_policy",
+      "expected": "待核验",
+      "actual": "待核验",
+      "passed": true
+    },
+    {
+      "case": "2017-11",
+      "metric": "sales",
+      "expected": 563393.47010096,
+      "actual": 563393.4701009577,
+      "passed": true
+    },
+    {
+      "case": "2017-11",
+      "metric": "profit",
+      "expected": 67791.250204682,
+      "actual": 67791.25020468186,
+      "passed": true
+    },
+    {
+      "case": "2017-11",
+      "metric": "mom",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2017-11",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2017-11",
+      "metric": "comparison_policy",
+      "expected": "待核验",
+      "actual": "待核验",
+      "passed": true
+    },
+    {
+      "case": "2017-12",
+      "metric": "sales",
+      "expected": 452741.530874991,
+      "actual": 452741.53087499156,
+      "passed": true
+    },
+    {
+      "case": "2017-12",
+      "metric": "profit",
+      "expected": 65837.629744941,
+      "actual": 65837.62974494099,
+      "passed": true
+    },
+    {
+      "case": "2017-12",
+      "metric": "mom",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2017-12",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2017-12",
+      "metric": "comparison_policy",
+      "expected": "待核验",
+      "actual": "待核验",
+      "passed": true
+    },
+    {
+      "case": "2018-01",
+      "metric": "sales",
+      "expected": 297952.050994565,
+      "actual": 297952.05099456484,
+      "passed": true
+    },
+    {
+      "case": "2018-01",
+      "metric": "profit",
+      "expected": 33841.889977086,
+      "actual": 33841.88997708599,
+      "passed": true
+    },
+    {
+      "case": "2018-01",
+      "metric": "mom",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2018-01",
+      "metric": "yoy",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "2018-01",
+      "metric": "comparison_policy",
+      "expected": "待核验",
+      "actual": "待核验",
+      "passed": true
+    },
+    {
+      "case": "rowcounts",
+      "metric": "fact_orders",
+      "expected": 65752,
+      "actual": 65752,
+      "passed": true
+    },
+    {
+      "case": "rowcounts",
+      "metric": "fact_order_items",
+      "expected": 180519,
+      "actual": 180519,
+      "passed": true
+    },
+    {
+      "case": "rowcounts",
+      "metric": "dim_product",
+      "expected": 118,
+      "actual": 118,
+      "passed": true
+    },
+    {
+      "case": "rowcounts",
+      "metric": "dim_customer",
+      "expected": 20652,
+      "actual": 20652,
+      "passed": true
+    },
+    {
+      "case": "rowcounts",
+      "metric": "dim_date",
+      "expected": 1127,
+      "actual": 1127,
+      "passed": true
+    },
+    {
+      "case": "rowcounts",
+      "metric": "dim_geography",
+      "expected": 1117,
+      "actual": 1117,
+      "passed": true
+    },
+    {
+      "case": "rowcounts",
+      "metric": "dim_shipping",
+      "expected": 4,
+      "actual": 4,
+      "passed": true
+    },
+    {
+      "case": "rowcounts",
+      "metric": "build_metadata",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "case": "rowcounts",
+      "metric": "KPI",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "finished_at_utc": "2026-10-21T06:09:33.936068+00:00",
+  "source_sha256": "fa6d022ed437155e1a2f0378710602848703c8a7f203f7ff5d77805bf8480aa6",
+  "artifacts": {
+    "reports\\amount_audit.csv": "28dfe23cb0ddab388e93e1a29434ed802f619fb16f30e33800ef14ae358244b7",
+    "reports\\cancellation_status_audit.csv": "b8fdc9e81813465278d57ceee629538a9d6ab1ddcd68a63fc103c3d7818e1cdc",
+    "reports\\commercial_summary.csv": "b57e7968523ff0e065a2ef79e11011d49e6b8815a5464153dff6504fad768171",
+    "reports\\data_quality_issues.csv": "68bf2d18a14918b7b3af6942494a25f193b6a0ad8fb7007d259d7073d7327b94",
+    "reports\\first_class_audit.csv": "9a0b9091d06aa1d84ee4d4d8f6c131b1c10853a0cfbce83194a6e6759d55f55c",
+    "reports\\fulfillment_segments.csv": "d1eca89da562629a8802f938d4a7820114fece664269d7c47a02e0a937c6dcbb",
+    "reports\\loss_pareto.csv": "72f6bb80b70bec1514e3f6d3f269240d0963938ee6f50f8efda84c2ee5833841",
+    "reports\\monthly_trends.csv": "62f56551fc96f31eeb3e881c4dc13680fa36ff4766ff391f965318022e598a7f",
+    "reports\\order_conflicts.csv": "13184fb6dc541efdcc8116efa789fcdc37671e534a6f5f84ede0105b39267a6d",
+    "reports\\powerbi_expected_kpis.csv": "e1f3195b6b54ea38860ed17718a30905221d0cbe5a5be884a1cea492b523d7e7",
+    "reports\\powerbi_filter_checks.csv": "8830653612905728cd0d40a1986da6af107b9e350978ea74c11220dde5d5321f",
+    "reports\\reconciliation.csv": "a9babd84b0d68c151ed29af9cab8d79e7ef05a1b513586a82e1a82f8838d7d02",
+    "reports\\source_control_reconciliation.csv": "dc812af77b96b8d63da00d89091b3eda4e7e4a7f468e8e1b8147bec85347dc46",
+    "data\\processed\\dim_customer.parquet": "ca66d4f5ac30e7cb6cd8c5ecdce7773f4f2e3ae7b2999cc9f2e038fe80df8826",
+    "data\\processed\\dim_date.parquet": "cee0adcb10b32681980e91e7dd37802e558083d17aca2b1ece375870be65b0a0",
+    "data\\processed\\dim_geography.parquet": "4d91379683ccda0b99918e72bb4e077b2add19bf6e761e48cb4fd1070a0890c2",
+    "data\\processed\\dim_product.parquet": "4f2d81079e6257f82028e7b948e2453f44353bcc6ff04690a53d26cf127f8645",
+    "data\\processed\\dim_shipping.parquet": "46e5335f11cb6d7f7dc5fe14792002424e65d7657257bfca8efa6ae3b9c4e662",
+    "data\\processed\\fact_order_items.parquet": "fa711d4e50ebbf769d5e10654c8a9b6a9f55d9affdb76a3d25ee92244a88d263",
+    "data\\processed\\fact_orders.parquet": "3ac937652cb4cce9a513684b06fb3c580715fa6f158cb018c7a22e7e3f7d1298"
+  },
+  "sales_field": "Order Item Total",
+  "gates": {
+    "data": "passed",
+    "analysis": "passed",
+    "powerbi": "passed; actual Desktop refresh, DAX, four pages, slicers, PBIX reopen"
+  }
+}
